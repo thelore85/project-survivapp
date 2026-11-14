@@ -7,7 +7,9 @@ import {
   type ModelStatus,
   type SpeciesRecord,
   type StoredMessage,
+  type Theme,
 } from '@survivapp/core';
+import { colorScheme } from 'nativewind';
 import { create } from 'zustand';
 import { pickFile } from '../platform/files';
 import { decodeImage, pickImage, thumbnailDataUri } from '../platform/images';
@@ -61,6 +63,7 @@ interface AppState {
   rebuildIndex(): Promise<void>;
   setLanguage(lang: Lang): Promise<void>;
   setQuota(quotaMb: number): Promise<void>;
+  setTheme(theme: Theme): Promise<void>;
   showSpecies(id: string | null): Promise<void>;
   installPackage(): Promise<void>;
   reindexPackage(): Promise<void>;
@@ -102,6 +105,7 @@ export const useApp = create<AppState>((set, get) => ({
     try {
       const services = await createServices();
       const config = await services.loadConfig();
+      colorScheme.set(config.theme);
       set({
         services,
         config,
@@ -279,6 +283,14 @@ export const useApp = create<AppState>((set, get) => ({
     if (!services) return;
     await services.settings.save({ language: lang });
     set({ lang, config: await services.loadConfig() });
+  },
+
+  async setTheme(theme) {
+    const { services } = get();
+    if (!services) return;
+    colorScheme.set(theme);
+    await services.settings.save({ theme });
+    set({ config: await services.loadConfig() });
   },
 
   async setQuota(quotaMb) {

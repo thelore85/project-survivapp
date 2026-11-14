@@ -13,14 +13,18 @@ export interface PackageConfig {
 }
 
 /** Scelte dell'utente, salvate nel database locale. */
+export type Theme = 'system' | 'light' | 'dark';
+
 export interface UserSettings {
   language?: Lang;
   userQuotaMb?: number;
+  theme?: Theme;
 }
 
 export interface EffectiveConfig extends PackageConfig {
   language: Lang;
   userQuotaMb: number;
+  theme: Theme;
 }
 
 export const DEFAULT_PACKAGE_CONFIG: PackageConfig = {
@@ -63,6 +67,7 @@ export function resolveConfig(packageConfig: PackageConfig, settings: UserSettin
   return {
     ...packageConfig,
     language: settings.language ?? packageConfig.defaultLanguage,
+    theme: settings.theme ?? 'system',
     userQuotaMb: clamp(
       settings.userQuotaMb ?? packageConfig.defaultUserQuotaMb,
       packageConfig.minUserQuotaMb,
@@ -71,7 +76,7 @@ export function resolveConfig(packageConfig: PackageConfig, settings: UserSettin
   };
 }
 
-const USER_KEYS = ['language', 'userQuotaMb'] as const;
+const USER_KEYS = ['language', 'userQuotaMb', 'theme'] as const;
 
 /** Impostazioni dell'utente persistite: accetta solo le chiavi sovrascrivibili. */
 export class SettingsStore {
@@ -84,6 +89,7 @@ export class SettingsStore {
       const value: unknown = JSON.parse(row.value);
       if (row.key === 'language' && (value === 'it' || value === 'en' || value === 'es')) settings.language = value;
       if (row.key === 'userQuotaMb' && typeof value === 'number') settings.userQuotaMb = value;
+      if (row.key === 'theme' && (value === 'system' || value === 'light' || value === 'dark')) settings.theme = value;
     }
     return settings;
   }

@@ -42,8 +42,13 @@ export function SpeciesModal() {
   const features = Object.entries(species.features);
 
   return (
-    <Modal visible animationType="slide" transparent onRequestClose={() => void showSpecies(null)}>
-      <View className="flex-1 items-center justify-end bg-black/50 md:justify-center">
+    <Modal visible animationType="fade" transparent onRequestClose={() => void showSpecies(null)}>
+      <View className="absolute bottom-0 left-0 right-0 top-0 items-center justify-end md:justify-center">
+        <Pressable
+          accessibilityLabel={tr(lang, 'species.close')}
+          className="absolute bottom-0 left-0 right-0 top-0 bg-black/50"
+          onPress={() => void showSpecies(null)}
+        />
         <View className="max-h-[92%] w-full max-w-2xl rounded-t-2xl bg-background md:rounded-2xl">
           <ScrollView contentContainerClassName="gap-5 p-5">
             {image ? (

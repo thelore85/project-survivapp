@@ -20,8 +20,7 @@
   --info-soft: 212 60% 95%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+.dark:root {
     --background: 150 8% 9%;
     --foreground: 60 8% 92%;
     --card: 150 7% 13%;
@@ -37,5 +36,4 @@
     --warning-soft: 36 50% 18%;
     --info: 212 70% 72%;
     --info-soft: 212 40% 20%;
-  }
 }

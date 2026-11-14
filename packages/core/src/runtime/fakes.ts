@@ -70,6 +70,17 @@ const DEMO_GLOSSARY: Record<string, string> = {
   veleno: 'poison', velenoso: 'poisonous', velenosa: 'poisonous', venenoso: 'poisonous', venenosa: 'poisonous',
   foglia: 'leaf', foglie: 'leaves', hoja: 'leaf', hojas: 'leaves', albero: 'tree', arbol: 'tree', fiore: 'flower',
   flor: 'flower', alpi: 'alps', alpes: 'alps',
+  materiali: 'materials', materiale: 'material', materiales: 'materials', usare: 'use', usar: 'use',
+  mangiare: 'eat', bere: 'drink', beber: 'drink', dormire: 'sleep', dormir: 'sleep', legna: 'wood', legno: 'wood',
+  lena: 'wood', madera: 'wood', pioggia: 'rain', lluvia: 'rain', vento: 'wind', viento: 'wind', notte: 'night',
+  noche: 'night', trovare: 'find', encontrar: 'find', cercare: 'find', buscar: 'find', attrezzi: 'tools',
+  strumenti: 'tools', herramientas: 'tools', vestiti: 'clothing', ropa: 'clothing', coperta: 'blanket',
+  manta: 'blanket', zaino: 'pack', mochila: 'pack', pericolo: 'danger', peligro: 'danger', animali: 'animals',
+  animales: 'animals', insetti: 'insects', insectos: 'insects', sole: 'sun', sol: 'sun', ghiaccio: 'ice',
+  hielo: 'ice', fiume: 'river', rio: 'river', torrente: 'stream', arroyo: 'stream', tenda: 'tent',
+  rami: 'branches', ramas: 'branches', pietre: 'rocks', piedras: 'rocks', calore: 'heat', acceso: 'fire',
+  conservare: 'preserve', conservar: 'preserve', filtrare: 'filter', filtrar: 'filter', raccogliere: 'collect',
+  recoger: 'collect', proteggersi: 'protection', protegerse: 'protection', scaldarsi: 'warm', calentarse: 'warm',
 };
 
 function fnv1a(text: string): number {

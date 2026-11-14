@@ -6,6 +6,8 @@ export interface SessionState {
   lastDomain?: 'botanical' | 'survival';
   /** Specie candidate dell'ultima risposta botanica: contesto per le domande successive. */
   lastSpeciesIds?: string[];
+  /** Ultima domanda survival: dà senso a un seguito breve come "e con che materiali?". */
+  lastSurvivalQuestion?: string;
   /** Domanda rimasta in sospeso in attesa di un chiarimento dell'utente. */
   pendingQuestion?: string;
 }

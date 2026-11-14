@@ -25,6 +25,8 @@ export interface SurvivalRequest {
   history?: LlmMessage[];
   /** Contesto esplicito passato dall'orchestratore, es. la specie appena identificata. */
   context?: string;
+  /** Domanda precedente, quando questa ne è il seguito: conta sia per cercare sia per giudicare la pertinenza. */
+  previousQuestion?: string;
   onToken?: (token: string) => void;
 }
 
@@ -59,13 +61,14 @@ function toCitation(passage: Passage, marker: number): Citation {
 /** Risposta survival ancorata alle fonti locali: recupera, genera, poi verifica ciò che è stato generato. */
 export async function answerSurvival(deps: SurvivalDeps, request: SurvivalRequest): Promise<SurvivalAnswer> {
   const { question, lang } = request;
-  const topics = detectRiskTopics(`${question} ${request.context ?? ''}`);
+  const topics = detectRiskTopics(`${question} ${request.previousQuestion ?? ''} ${request.context ?? ''}`);
   const notices: Notice[] = riskNotices(topics, lang);
   const addNotice = (code: Parameters<typeof t>[1], level: Notice['level']): void => {
     if (!notices.some((notice) => notice.code === code)) notices.push({ code, level, text: t(lang, code) });
   };
 
-  const searchText = request.context ? `${question} ${request.context}` : question;
+  const topicText = request.previousQuestion ? `${request.previousQuestion} ${question}` : question;
+  const searchText = request.context ? `${topicText} ${request.context}` : topicText;
   const search = await hybridSearch(deps.stores, deps.embedder, searchText, {
     limit: 6,
     // I testi storici non devono mai sostenere una risposta su cosa si può ingerire.
@@ -74,7 +77,7 @@ export async function answerSurvival(deps: SurvivalDeps, request: SurvivalReques
   if (!search.semanticUsed) addNotice('notice.semantic_unavailable', 'info');
 
   // Il contesto aiuta a cercare, ma la pertinenza si giudica sulla sola domanda dell'utente.
-  const relevant = search.passages.filter((passage) => isRelevant(passage, question, deps.embedder));
+  const relevant = search.passages.filter((passage) => isRelevant(passage, topicText, deps.embedder));
   if (relevant.length === 0) {
     return {
       kind: 'survival',
@@ -111,7 +114,7 @@ export async function answerSurvival(deps: SurvivalDeps, request: SurvivalReques
   const generated = await deps.llm.generate(
     {
       system: systemPrompt(lang),
-      messages: [...(request.history ?? []), { role: 'user', content: `${context}\n\nQuestion: ${question}` }],
+      messages: [...(request.history ?? []), { role: 'user', content: `${context}\n\nQuestion: ${topicText}` }],
       maxTokens: 400,
     },
     request.onToken,

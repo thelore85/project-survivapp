@@ -1,4 +1,4 @@
-import { LANGS, type Lang } from '@survivapp/core';
+import { LANGS, type Lang, type Theme } from '@survivapp/core';
 import { Minus, Plus } from 'lucide-react-native';
 import { ScrollView, View } from 'react-native';
 import { Badge, Button, Card, Section, Text } from '../components/ui';
@@ -8,6 +8,7 @@ import { tr, type StringKey } from '../strings';
 
 const LANGUAGE_NAME: Record<Lang, string> = { it: 'Italiano', en: 'English', es: 'Español' };
 const QUOTA_STEP = 50;
+const THEMES: Theme[] = ['system', 'light', 'dark'];
 
 function Row({ label, value }: { label: string; value: string }) {
   return (
@@ -29,6 +30,7 @@ export function SettingsScreen() {
   const feedback = useApp((state) => state.settingsFeedback);
   const setLanguage = useApp((state) => state.setLanguage);
   const setQuota = useApp((state) => state.setQuota);
+  const setTheme = useApp((state) => state.setTheme);
   const clearHistory = useApp((state) => state.clearHistory);
   const rebuildIndex = useApp((state) => state.rebuildIndex);
   const installPackage = useApp((state) => state.installPackage);
@@ -48,6 +50,20 @@ export function SettingsScreen() {
               label={LANGUAGE_NAME[code]}
               accessibilityState={{ selected: code === lang }}
               onPress={() => void setLanguage(code)}
+            />
+          ))}
+        </View>
+      </Section>
+
+      <Section title={tr(lang, 'settings.theme')}>
+        <View className="flex-row flex-wrap gap-2">
+          {THEMES.map((theme) => (
+            <Button
+              key={theme}
+              variant={theme === config.theme ? 'default' : 'outline'}
+              label={tr(lang, `settings.theme.${theme}` as StringKey)}
+              accessibilityState={{ selected: theme === config.theme }}
+              onPress={() => void setTheme(theme)}
             />
           ))}
         </View>

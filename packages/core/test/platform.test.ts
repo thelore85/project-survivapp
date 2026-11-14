@@ -62,6 +62,13 @@ describe('configurazione a livelli', () => {
     expect(resolveConfig(DEFAULT_PACKAGE_CONFIG, reloaded)).toMatchObject({ userQuotaMb: 350, language: 'en' });
   });
 
+  it('il tema scelto resta al riavvio e parte da quello di sistema', async () => {
+    const db = await makeDb();
+    expect(resolveConfig(DEFAULT_PACKAGE_CONFIG, await new SettingsStore(db).load()).theme).toBe('system');
+    await new SettingsStore(db).save({ theme: 'light' });
+    expect(resolveConfig(DEFAULT_PACKAGE_CONFIG, await new SettingsStore(db).load()).theme).toBe('light');
+  });
+
   it('ignora chiavi sconosciute salvate nel database', async () => {
     const db = await makeDb();
     await db.run("INSERT INTO settings (key, value) VALUES ('allowEdibilityAnswers', 'true')");

@@ -109,6 +109,10 @@ const STRINGS = {
   'library.doc.meta': { it: '{pages} pagine · {chunks} passaggi', en: '{pages} pages · {chunks} passages', es: '{pages} páginas · {chunks} pasajes' },
   'library.doc.text_only': { it: 'Solo ricerca per parole', en: 'Keyword search only', es: 'Solo búsqueda por palabras' },
   'settings.language': { it: 'Lingua', en: 'Language', es: 'Idioma' },
+  'settings.theme': { it: 'Aspetto', en: 'Appearance', es: 'Apariencia' },
+  'settings.theme.system': { it: 'Come il sistema', en: 'Match system', es: 'Como el sistema' },
+  'settings.theme.light': { it: 'Chiaro', en: 'Light', es: 'Claro' },
+  'settings.theme.dark': { it: 'Scuro', en: 'Dark', es: 'Oscuro' },
   'settings.quota': { it: 'Spazio per i tuoi file', en: 'Space for your files', es: 'Espacio para tus archivos' },
   'settings.quota.help': {
     it: 'Da {min} a {max} MB. Il valore di partenza arriva dal pacchetto base.',

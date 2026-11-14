@@ -190,11 +190,22 @@ export class Orchestrator {
               embedder: await this.deps.models.textEmbedder(),
               llm: await this.deps.models.llm(),
             },
-            { question: text, lang, history, context, onToken: input.onToken },
+            {
+              question: text,
+              lang,
+              history,
+              context,
+              previousQuestion: intent.reason === 'follow_up' ? state.lastSurvivalQuestion : undefined,
+              onToken: input.onToken,
+            },
           ),
         );
         mark();
-        if (intent.domain === 'survival') nextState.lastDomain = 'survival';
+        if (intent.domain === 'survival') {
+          nextState.lastDomain = 'survival';
+          // Un seguito non sostituisce l'argomento: resta la domanda che lo ha aperto.
+          if (intent.reason !== 'follow_up') nextState.lastSurvivalQuestion = text;
+        }
       }
     }
 

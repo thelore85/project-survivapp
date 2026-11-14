@@ -73,6 +73,14 @@ await step('survival: fonti insufficienti dichiarate', async () => {
   await page.getByText(/Non invento una procedura/).waitFor({ timeout: 60_000 });
 });
 
+await step('survival: un seguito breve eredita l’argomento della domanda precedente', async () => {
+  await page.getByRole('button', { name: 'Nuova chat' }).click();
+  await send('Come costruire un riparo per la notte?');
+  await page.getByText('Fonti', { exact: true }).waitFor({ timeout: 60_000 });
+  await send('che materiali usare?');
+  await page.getByText('Fonti', { exact: true }).nth(1).waitFor({ timeout: 60_000 });
+});
+
 await step('orchestratore: richiesta ambigua → chiarimento con opzioni', async () => {
   await page.getByRole('button', { name: 'Nuova chat' }).click();
   await send('dimmi qualcosa di interessante');
@@ -106,7 +114,9 @@ if (sampleImage) {
     await page.getByRole('button', { name: 'Apri la scheda' }).first().click();
     await page.getByText('Fonti e licenze').waitFor();
     await shot('04-scheda');
-    await page.getByRole('button', { name: 'Chiudi' }).click();
+    // La scheda si chiude anche con un clic fuori, sullo sfondo scuro.
+    await page.mouse.click(12, 12);
+    await page.getByText('Fonti e licenze').waitFor({ state: 'hidden' });
   });
 } else {
   results.push('skip  botanica: nessuna immagine in data/catalogue/images');
@@ -137,6 +147,18 @@ await step('survival: il file dell’utente diventa una fonte', async () => {
   await page.getByRole('button', { name: 'Nuova chat' }).click();
   await send('come preparo un bivacco nella neve?');
   await page.getByText(/appunti-bivacco/).first().waitFor({ timeout: 60_000 });
+});
+
+await step('impostazioni: il tema si cambia a mano', async () => {
+  await page.getByRole('tab', { name: 'Impostazioni' }).click();
+  const isDark = () => page.evaluate(() => document.documentElement.classList.contains('dark'));
+  await page.getByRole('button', { name: 'Scuro' }).click();
+  await page.waitForFunction(() => document.documentElement.classList.contains('dark'));
+  await shot('06a-tema-scuro');
+  await page.getByRole('button', { name: 'Chiaro' }).click();
+  await page.waitForFunction(() => !document.documentElement.classList.contains('dark'));
+  if (await isDark()) throw new Error('il tema chiaro non è stato applicato');
+  await shot('06b-tema-chiaro');
 });
 
 await step('impostazioni: lingua e quota cambiano e restano dopo il ricaricamento', async () => {

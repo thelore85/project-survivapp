@@ -109,6 +109,19 @@ describe('orchestratore', () => {
     expect(part?.kind === 'botanical' && part.candidates[0]?.id).toBe('amanita-muscaria');
   });
 
+  it('un seguito breve eredita l’argomento della domanda survival precedente', async () => {
+    const { orchestrator, conversations } = await makeHarness();
+    await orchestrator.handle({ conversationId: 'c1', text: 'Come costruire un riparo?', lang: 'it' });
+    const reply = await orchestrator.handle({ conversationId: 'c1', text: 'che materiali usare?', lang: 'it' });
+
+    expect(reply.domain).toBe('survival');
+    expect(reply.routingReason).toBe('follow_up');
+    const part = reply.parts[0];
+    expect(part?.kind === 'survival' && part.status).toBe('answered');
+    expect(part?.kind === 'survival' && part.citations[0]?.page).toBe(40);
+    expect((await conversations.getState('c1')).lastSurvivalQuestion).toBe('Come costruire un riparo?');
+  });
+
   it('una richiesta ambigua genera una domanda di chiarimento e poi riprende la domanda', async () => {
     const { orchestrator, conversations } = await makeHarness();
     const first = await orchestrator.handle({ conversationId: 'c1', text: 'lean-to ridge pole', lang: 'it' });
