@@ -73,7 +73,8 @@ export async function answerSurvival(deps: SurvivalDeps, request: SurvivalReques
   });
   if (!search.semanticUsed) addNotice('notice.semantic_unavailable', 'info');
 
-  const relevant = search.passages.filter((passage) => isRelevant(passage, searchText, deps.embedder));
+  // Il contesto aiuta a cercare, ma la pertinenza si giudica sulla sola domanda dell'utente.
+  const relevant = search.passages.filter((passage) => isRelevant(passage, question, deps.embedder));
   if (relevant.length === 0) {
     return {
       kind: 'survival',

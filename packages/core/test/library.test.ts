@@ -8,6 +8,7 @@ import {
   hybridSearch,
   isRelevant,
   migrate,
+  sameWord,
   termCoverage,
 } from '../src';
 import { HISTORICAL_PAGES, WATER_PAGES, makeDb } from './helpers';
@@ -54,6 +55,15 @@ describe('ricerca testuale', () => {
   it('costruisce una query FTS sicura anche con caratteri speciali', () => {
     expect(buildFtsQuery('acqua "potabile" NEAR (fuoco)*')).toBe('"acqua" OR "potabile" OR "near" OR "fuoco"');
     expect(buildFtsQuery('il la di')).toBe('');
+  });
+
+  it('riconosce le varianti di una parola ma non parole diverse', () => {
+    expect(sameWord('build', 'built')).toBe(true);
+    expect(sameWord('boil', 'boiling')).toBe(true);
+    expect(sameWord('purify', 'purification')).toBe(true);
+    expect(sameWord('fire', 'first')).toBe(false);
+    expect(sameWord('eat', 'eaten')).toBe(false);
+    expect(sameWord('water', 'carburetor')).toBe(false);
   });
 
   it('misura la copertura dei termini ignorando accenti e stopword', () => {

@@ -92,7 +92,16 @@ function stem(token: string): string {
 export class FakeTextEmbedder extends FakeModel implements TextEmbedder {
   readonly id = 'fake-hash-256';
   readonly dim = 256;
-  readonly relevanceThreshold = 0.2;
+  // Sopra 1: il coseno di un hash non distingue un vero riscontro da una collisione,
+  // quindi con questo modello la pertinenza si decide solo sulle parole.
+  readonly relevanceThreshold = 1.1;
+
+  /** Sostituisce le parole italiane e spagnole del glossario con l'equivalente inglese. */
+  rewriteQuery(query: string): string {
+    return contentTokens(query)
+      .map((token) => DEMO_GLOSSARY[token] ?? token)
+      .join(' ');
+  }
 
   async embed(texts: string[]): Promise<Float32Array[]> {
     return texts.map((text) => {

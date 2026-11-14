@@ -1,5 +1,5 @@
 import type { TextEmbedder } from '../runtime/types';
-import { contentTokens } from '../text/tokens';
+import { contentTokens, termCoverage } from '../text/tokens';
 import type { Passage } from '../types';
 import type { LibraryStore, SearchFilter } from './store';
 
@@ -27,6 +27,7 @@ export async function hybridSearch(
 ): Promise<HybridSearchResult> {
   const limit = options.limit ?? 6;
   const pool = limit * 3;
+  const wordQuery = embedder?.rewriteQuery?.(query) ?? query;
   const merged = new Map<string, Passage>();
   let semanticUsed = false;
   let queryVector: Float32Array | null = null;
@@ -46,11 +47,11 @@ export async function hybridSearch(
   };
 
   for (const store of stores) {
-    add(await store.ftsSearch(query, pool, options));
+    add(await store.ftsSearch(wordQuery, pool, options));
     if (embedder && (await store.embeddingModel()) === embedder.id) {
       queryVector ??= (await embedder.embed([query], 'query'))[0] ?? null;
       if (queryVector) {
-        add(await store.vectorSearch(query, queryVector, pool, options));
+        add(await store.vectorSearch(wordQuery, queryVector, pool, options));
         semanticUsed = true;
       }
     }
@@ -66,8 +67,11 @@ export async function hybridSearch(
  */
 export function isRelevant(passage: Passage, query: string, embedder: TextEmbedder | null): boolean {
   if (embedder && passage.cosine !== null && passage.cosine >= embedder.relevanceThreshold) return true;
-  const terms = new Set(contentTokens(query)).size;
+  const wordQuery = embedder?.rewriteQuery?.(query) ?? query;
+  const terms = new Set(contentTokens(wordQuery)).size;
   if (terms === 0) return false;
-  const matched = Math.round(passage.termCoverage * terms);
-  return terms <= 2 ? matched === terms : matched >= 2 && passage.termCoverage >= 0.5;
+  // Ricalcolata sulla domanda: la ricerca può aver usato un testo più ampio (domanda + contesto).
+  const coverage = termCoverage(wordQuery, passage.text);
+  const matched = Math.round(coverage * terms);
+  return terms <= 2 ? matched === terms : matched >= 2 && coverage >= 0.5;
 }

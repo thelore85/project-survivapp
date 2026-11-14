@@ -36,7 +36,7 @@ const MIGRATIONS: string[] = [
   CREATE INDEX chunks_document ON chunks(document_id);
 
   CREATE VIRTUAL TABLE chunks_fts USING fts5(
-    text, content='chunks', content_rowid='id', tokenize='unicode61 remove_diacritics 2'
+    text, content='chunks', content_rowid='id', tokenize='porter unicode61 remove_diacritics 2'
   );
   CREATE TRIGGER chunks_ai AFTER INSERT ON chunks BEGIN
     INSERT INTO chunks_fts(rowid, text) VALUES (new.id, new.text);

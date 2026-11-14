@@ -1,0 +1,101 @@
+[
+  {
+    "id": "fm-3-05-70-survival",
+    "file": "survival/FM_3-05.70_Survival_2002.pdf",
+    "title": "FM 3-05.70 Survival",
+    "author": "US Army",
+    "edition": "2002",
+    "lang": "en",
+    "source": "https://archive.org/details/fm-3-05.70-survival-2002",
+    "license": "Public domain (US Government work)",
+    "reliability": "current"
+  },
+  {
+    "id": "fm-21-76-1-survival-evasion-recovery",
+    "file": "survival/FM_21-76-1_Survival_Evasion_Recovery_1999.pdf",
+    "title": "FM 21-76-1 Survival, Evasion, and Recovery",
+    "author": "US Army, Marine Corps, Navy, Air Force",
+    "edition": "1999",
+    "lang": "en",
+    "source": "https://archive.org/details/Fm21-76-1",
+    "license": "Public domain (US Government work)",
+    "reliability": "current"
+  },
+  {
+    "id": "cooke-edible-poisonous-mushrooms",
+    "file": "botany/Cooke_Edible_and_Poisonous_Mushrooms_1894.pdf",
+    "title": "Edible and Poisonous Mushrooms",
+    "author": "M. C. Cooke",
+    "edition": "1894",
+    "lang": "en",
+    "source": "https://archive.org/details/ediblepoisonousm00cook",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  },
+  {
+    "id": "swanton-fungi-how-to-know-them",
+    "file": "botany/Swanton_Fungi_and_How_to_Know_Them_1909.pdf",
+    "title": "Fungi and How to Know Them",
+    "author": "E. W. Swanton",
+    "edition": "1909",
+    "lang": "en",
+    "source": "https://archive.org/details/fungihowtoknowth00swan",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  },
+  {
+    "id": "bennett-flora-of-the-alps-1",
+    "file": "botany/Bennett_Flora_of_the_Alps_vol1_1896.pdf",
+    "title": "The Flora of the Alps, vol. 1",
+    "author": "A. W. Bennett",
+    "edition": "1896",
+    "lang": "en",
+    "source": "https://archive.org/details/floraalps01bennrich",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  },
+  {
+    "id": "bennett-flora-of-the-alps-2",
+    "file": "botany/Bennett_Flora_of_the_Alps_vol2_1896.pdf",
+    "title": "The Flora of the Alps, vol. 2",
+    "author": "A. W. Bennett",
+    "edition": "1896",
+    "lang": "en",
+    "source": "https://archive.org/details/floraalps02bennrich",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  },
+  {
+    "id": "thompson-flowering-plants-riviera",
+    "file": "botany/Thompson_Flowering_Plants_of_the_Riviera_1914.pdf",
+    "title": "Flowering Plants of the Riviera",
+    "author": "H. S. Thompson",
+    "edition": "1914",
+    "lang": "en",
+    "source": "https://archive.org/details/floweringplantso00thomiala",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  },
+  {
+    "id": "step-wayside-woodland-trees",
+    "file": "botany/Step_Wayside_and_Woodland_Trees_1910.pdf",
+    "title": "Wayside and Woodland Trees",
+    "author": "E. Step",
+    "edition": "1910",
+    "lang": "en",
+    "source": "https://archive.org/details/waysidewoodlandt00step",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  },
+  {
+    "id": "step-wayside-woodland-blossoms",
+    "file": "botany/Step_Wayside_and_Woodland_Blossoms_1895.pdf",
+    "title": "Wayside and Woodland Blossoms",
+    "author": "E. Step",
+    "edition": "1895",
+    "lang": "en",
+    "source": "https://archive.org/details/waysidewoodlandb00stepuoft",
+    "license": "Public domain (age)",
+    "reliability": "historical"
+  }
+]

@@ -39,11 +39,23 @@ export function buildFtsQuery(text: string): string {
   return unique.map((token) => `"${token}"`).join(' OR ');
 }
 
+/**
+ * Due parole coincidono se sono uguali o condividono quasi tutto l'inizio
+ * (build/built, boil/boiling, purify/purification): uno stemming grezzo ma indipendente dalla lingua.
+ */
+export function sameWord(a: string, b: string): boolean {
+  if (a === b) return true;
+  const shortest = Math.min(a.length, b.length);
+  let common = 0;
+  while (common < shortest && a[common] === b[common]) common++;
+  return common >= 4 && common >= shortest - 2;
+}
+
 /** Quota dei termini distinti della domanda presenti nel testo. */
 export function termCoverage(query: string, text: string): number {
   const queryTokens = [...new Set(contentTokens(query))];
   if (queryTokens.length === 0) return 0;
-  const textTokens = new Set(tokenize(text));
-  const hits = queryTokens.filter((token) => textTokens.has(token)).length;
+  const textTokens = [...new Set(tokenize(text))];
+  const hits = queryTokens.filter((token) => textTokens.some((candidate) => sameWord(token, candidate))).length;
   return hits / queryTokens.length;
 }

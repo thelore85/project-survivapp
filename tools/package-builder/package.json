@@ -1,0 +1,19 @@
+{
+  "name": "@survivapp/package-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@survivapp/core": "*",
+    "jpeg-js": "^0.4.4",
+    "pdfjs-dist": "^6.5.438"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}

@@ -38,6 +38,13 @@ describe('risposta survival ancorata alle fonti', () => {
     expect(llm.requests).toHaveLength(0);
   });
 
+  it('una parola comune in comune con i documenti non basta a rispondere', async () => {
+    const { deps } = await setup();
+    // "water" è nei documenti, "carburetor" no: il passaggio trovato non copre la domanda.
+    const answer = await answerSurvival(deps, { question: 'water carburetor', lang: 'en' });
+    expect(answer.status).toBe('insufficient_sources');
+  });
+
   it('nessuna citazione senza un riferimento recuperato', async () => {
     const { deps } = await setup(() => 'Boil the water [1]. Then filter it through sand [8].');
     const answer = await answerSurvival(deps, { question: 'How do I purify water?', lang: 'en' });
