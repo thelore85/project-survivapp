@@ -1,0 +1,4594 @@
+[
+  {
+    "scientificName": "Amanita phalloides",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver and kidney failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica e renale ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático y renal tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Agaricus campestris",
+      "Agaricus arvensis",
+      "Agaricus sylvicola",
+      "Russula virescens",
+      "Russula cyanoxantha",
+      "Russula aeruginea",
+      "Amanita caesarea",
+      "Volvopluteus gloiocephalus",
+      "Amanita citrina",
+      "Amanita vaginata",
+      "Lycoperdon perlatum",
+      "Tricholoma equestre",
+      "Phallus impudicus"
+    ]
+  },
+  {
+    "scientificName": "Amanita virosa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Agaricus sylvicola",
+      "Agaricus arvensis",
+      "Agaricus campestris",
+      "Leucoagaricus leucothites",
+      "Amanita ovoidea"
+    ]
+  },
+  {
+    "scientificName": "Amanita verna",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Agaricus campestris",
+      "Agaricus arvensis",
+      "Leucoagaricus leucothites",
+      "Amanita ovoidea",
+      "Calocybe gambosa"
+    ]
+  },
+  {
+    "scientificName": "Amanita pantherina",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains ibotenic acid and muscimol causing severe neurological poisoning, occasionally fatal.",
+        "it": "L'intero fungo contiene acido ibotenico e muscimolo che causano una grave intossicazione neurologica, talvolta mortale.",
+        "es": "Toda la seta contiene ácido iboténico y muscimol que causan una intoxicación neurológica grave, a veces mortal."
+      }
+    },
+    "lookalikes": [
+      "Amanita rubescens",
+      "Amanita excelsa",
+      "Macrolepiota procera"
+    ]
+  },
+  {
+    "scientificName": "Amanita muscaria",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains ibotenic acid and muscimol causing neurological poisoning with delirium and vomiting.",
+        "it": "L'intero fungo contiene acido ibotenico e muscimolo che causano un'intossicazione neurologica con delirio e vomito.",
+        "es": "Toda la seta contiene ácido iboténico y muscimol que causan una intoxicación neurológica con delirio y vómitos."
+      }
+    },
+    "lookalikes": [
+      "Amanita caesarea"
+    ]
+  },
+  {
+    "scientificName": "Amanita gemmata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom can cause neurological poisoning similar to that of Amanita pantherina.",
+        "it": "L'intero fungo può causare un'intossicazione neurologica simile a quella di Amanita pantherina.",
+        "es": "Toda la seta puede causar una intoxicación neurológica similar a la de Amanita pantherina."
+      }
+    },
+    "lookalikes": [
+      "Amanita citrina",
+      "Amanita caesarea"
+    ]
+  },
+  {
+    "scientificName": "Amanita proxima",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains a toxin that causes delayed acute kidney failure.",
+        "it": "L'intero fungo contiene una tossina che provoca un'insufficienza renale acuta ritardata.",
+        "es": "Toda la seta contiene una toxina que causa un fallo renal agudo tardío."
+      }
+    },
+    "lookalikes": [
+      "Amanita ovoidea"
+    ]
+  },
+  {
+    "scientificName": "Amanita ovoidea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with the kidney-damaging Amanita proxima and with deadly white Amanita species.",
+        "it": "Facilmente confondibile con Amanita proxima, che danneggia i reni, e con le Amanita bianche mortali.",
+        "es": "Se confunde fácilmente con Amanita proxima, que daña los riñones, y con las Amanita blancas mortales."
+      }
+    },
+    "lookalikes": [
+      "Amanita virosa",
+      "Amanita verna",
+      "Amanita proxima"
+    ]
+  },
+  {
+    "scientificName": "Amanita citrina",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains bufotenin and is easily confused with the deadly Amanita phalloides.",
+        "it": "Contiene bufotenina ed è facilmente confondibile con la mortale Amanita phalloides.",
+        "es": "Contiene bufotenina y se confunde fácilmente con la mortal Amanita phalloides."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Amanita gemmata"
+    ]
+  },
+  {
+    "scientificName": "Amanita rubescens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains heat-labile haemolytic toxins when raw and is easily confused with the dangerous Amanita pantherina.",
+        "it": "Da crudo contiene tossine emolitiche termolabili ed è facilmente confondibile con la pericolosa Amanita pantherina.",
+        "es": "En crudo contiene toxinas hemolíticas termolábiles y se confunde fácilmente con la peligrosa Amanita pantherina."
+      }
+    },
+    "lookalikes": [
+      "Amanita excelsa",
+      "Amanita pantherina"
+    ]
+  },
+  {
+    "scientificName": "Amanita excelsa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with the dangerous Amanita pantherina.",
+        "it": "Facilmente confondibile con la pericolosa Amanita pantherina.",
+        "es": "Se confunde fácilmente con la peligrosa Amanita pantherina."
+      }
+    },
+    "lookalikes": [
+      "Amanita pantherina",
+      "Amanita rubescens"
+    ]
+  },
+  {
+    "scientificName": "Amanita caesarea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly), Amanita muscaria (toxic), Amanita gemmata (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale), Amanita muscaria (tossica), Amanita gemmata (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal), Amanita muscaria (tóxica), Amanita gemmata (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Amanita muscaria",
+      "Amanita gemmata"
+    ]
+  },
+  {
+    "scientificName": "Amanita vaginata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw and easily confused with deadly Amanita species.",
+        "it": "Tossica da cruda e facilmente confondibile con le Amanita mortali.",
+        "es": "Tóxica en crudo y fácil de confundir con las Amanita mortales."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides"
+    ]
+  },
+  {
+    "scientificName": "Galerina marginata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Kuehneromyces mutabilis",
+      "Armillaria mellea",
+      "Hypholoma capnoides",
+      "Flammulina velutipes"
+    ]
+  },
+  {
+    "scientificName": "Pholiotina rugosa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that can cause fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che possono provocare un'insufficienza epatica mortale.",
+        "es": "Toda la seta contiene amatoxinas que pueden causar un fallo hepático mortal."
+      }
+    },
+    "lookalikes": [
+      "Kuehneromyces mutabilis",
+      "Psilocybe semilanceata"
+    ]
+  },
+  {
+    "scientificName": "Cortinarius orellanus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains orellanine, which causes kidney failure appearing days after ingestion.",
+        "it": "L'intero fungo contiene orellanina, che provoca un'insufficienza renale a distanza di giorni dall'ingestione.",
+        "es": "Toda la seta contiene orelanina, que causa un fallo renal que aparece días después de la ingestión."
+      }
+    },
+    "lookalikes": [
+      "Cantharellus cibarius",
+      "Craterellus tubaeformis",
+      "Cortinarius caperatus"
+    ]
+  },
+  {
+    "scientificName": "Cortinarius rubellus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains orellanine, which causes kidney failure appearing days after ingestion.",
+        "it": "L'intero fungo contiene orellanina, che provoca un'insufficienza renale a distanza di giorni dall'ingestione.",
+        "es": "Toda la seta contiene orelanina, que causa un fallo renal que aparece días después de la ingestión."
+      }
+    },
+    "lookalikes": [
+      "Craterellus tubaeformis",
+      "Cantharellus cibarius",
+      "Craterellus lutescens"
+    ]
+  },
+  {
+    "scientificName": "Cortinarius splendens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom is suspected of causing fatal kidney failure like other orellanine-type webcaps.",
+        "it": "L'intero fungo è sospettato di causare un'insufficienza renale mortale come altri cortinari con tossine di tipo orellanina.",
+        "es": "Se sospecha que toda la seta causa un fallo renal mortal, como otros cortinarios con toxinas de tipo orelanina."
+      }
+    },
+    "lookalikes": [
+      "Tricholoma equestre"
+    ]
+  },
+  {
+    "scientificName": "Cortinarius caperatus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Cortinarius orellanus (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Cortinarius orellanus (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Cortinarius orellanus (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Cortinarius orellanus"
+    ]
+  },
+  {
+    "scientificName": "Gyromitra esculenta",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains gyromitrin, which causes liver damage and neurological poisoning that can be fatal, even after cooking.",
+        "it": "L'intero fungo contiene giromitrina, che causa danni al fegato e un'intossicazione neurologica potenzialmente mortale, anche dopo la cottura.",
+        "es": "Toda la seta contiene giromitrina, que causa daño hepático e intoxicación neurológica potencialmente mortal, incluso tras la cocción."
+      }
+    },
+    "lookalikes": [
+      "Morchella esculenta",
+      "Morchella elata",
+      "Verpa bohemica"
+    ]
+  },
+  {
+    "scientificName": "Morchella esculenta",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw or undercooked, causing gastrointestinal and neurological symptoms; confused with the deadly Gyromitra esculenta.",
+        "it": "Tossica da cruda o poco cotta, con sintomi gastrointestinali e neurologici; confondibile con la mortale Gyromitra esculenta.",
+        "es": "Tóxica en crudo o poco cocinada, con síntomas gastrointestinales y neurológicos; se confunde con la mortal Gyromitra esculenta."
+      }
+    },
+    "lookalikes": [
+      "Gyromitra esculenta",
+      "Verpa bohemica"
+    ]
+  },
+  {
+    "scientificName": "Morchella elata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw or undercooked, causing gastrointestinal and neurological symptoms; confused with the deadly Gyromitra esculenta.",
+        "it": "Tossica da cruda o poco cotta, con sintomi gastrointestinali e neurologici; confondibile con la mortale Gyromitra esculenta.",
+        "es": "Tóxica en crudo o poco cocinada, con síntomas gastrointestinales y neurológicos; se confunde con la mortal Gyromitra esculenta."
+      }
+    },
+    "lookalikes": [
+      "Gyromitra esculenta"
+    ]
+  },
+  {
+    "scientificName": "Verpa bohemica",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw and reported to cause gastrointestinal upset and loss of coordination.",
+        "it": "Tossica da cruda; sono segnalati disturbi gastrointestinali e perdita di coordinazione.",
+        "es": "Tóxica en crudo; se han descrito trastornos gastrointestinales y pérdida de coordinación."
+      }
+    },
+    "lookalikes": [
+      "Morchella esculenta",
+      "Gyromitra esculenta"
+    ]
+  },
+  {
+    "scientificName": "Lepiota brunneoincarnata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera",
+      "Marasmius oreades",
+      "Chlorophyllum rhacodes"
+    ]
+  },
+  {
+    "scientificName": "Lepiota helveola",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera",
+      "Chlorophyllum rhacodes"
+    ]
+  },
+  {
+    "scientificName": "Lepiota subincarnata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains amatoxins that cause delayed, often fatal liver failure.",
+        "it": "L'intero fungo contiene amatossine che provocano un'insufficienza epatica ritardata, spesso mortale.",
+        "es": "Toda la seta contiene amatoxinas que causan un fallo hepático tardío, a menudo mortal."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera",
+      "Marasmius oreades"
+    ]
+  },
+  {
+    "scientificName": "Lepiota cristata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom is poisonous and belongs to a group of small Lepiota with deadly species.",
+        "it": "L'intero fungo è velenoso e appartiene a un gruppo di piccole Lepiota con specie mortali.",
+        "es": "Toda la seta es venenosa y pertenece a un grupo de pequeñas Lepiota con especies mortales."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera"
+    ]
+  },
+  {
+    "scientificName": "Echinoderma asperum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes gastrointestinal poisoning and a flushing reaction when combined with alcohol.",
+        "it": "L'intero fungo causa un'intossicazione gastrointestinale e una reazione con vampate se associato all'alcol.",
+        "es": "Toda la seta causa una intoxicación gastrointestinal y una reacción con sofocos si se combina con alcohol."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera"
+    ]
+  },
+  {
+    "scientificName": "Macrolepiota procera",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita pantherina (deadly), Lepiota brunneoincarnata (deadly), Lepiota helveola (deadly), Lepiota subincarnata (deadly), Lepiota cristata (toxic), Echinoderma asperum (toxic), Chlorophyllum molybdites (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita pantherina (mortale), Lepiota brunneoincarnata (mortale), Lepiota helveola (mortale), Lepiota subincarnata (mortale), Lepiota cristata (tossica), Echinoderma asperum (tossica), Chlorophyllum molybdites (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita pantherina (mortal), Lepiota brunneoincarnata (mortal), Lepiota helveola (mortal), Lepiota subincarnata (mortal), Lepiota cristata (tóxica), Echinoderma asperum (tóxica), Chlorophyllum molybdites (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Amanita pantherina",
+      "Lepiota brunneoincarnata",
+      "Lepiota helveola",
+      "Lepiota subincarnata",
+      "Lepiota cristata",
+      "Echinoderma asperum",
+      "Chlorophyllum rhacodes",
+      "Chlorophyllum molybdites"
+    ]
+  },
+  {
+    "scientificName": "Chlorophyllum rhacodes",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Causes gastrointestinal upset in some people and is confused with toxic Chlorophyllum and deadly small Lepiota species.",
+        "it": "Causa disturbi gastrointestinali in alcune persone ed è confondibile con Chlorophyllum tossici e con piccole Lepiota mortali.",
+        "es": "Causa trastornos gastrointestinales en algunas personas y se confunde con Chlorophyllum tóxicos y pequeñas Lepiota mortales."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera",
+      "Lepiota brunneoincarnata",
+      "Lepiota helveola",
+      "Chlorophyllum molybdites"
+    ]
+  },
+  {
+    "scientificName": "Chlorophyllum molybdites",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes severe vomiting and diarrhoea.",
+        "it": "L'intero fungo causa vomito e diarrea intensi.",
+        "es": "Toda la seta causa vómitos y diarrea intensos."
+      }
+    },
+    "lookalikes": [
+      "Macrolepiota procera",
+      "Chlorophyllum rhacodes"
+    ]
+  },
+  {
+    "scientificName": "Leucoagaricus leucothites",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Causes gastrointestinal upset in some people and is easily confused with deadly white Amanita species.",
+        "it": "Causa disturbi gastrointestinali in alcune persone ed è facilmente confondibile con le Amanita bianche mortali.",
+        "es": "Causa trastornos gastrointestinales en algunas personas y se confunde fácilmente con las Amanita blancas mortales."
+      }
+    },
+    "lookalikes": [
+      "Agaricus campestris",
+      "Amanita virosa",
+      "Amanita verna"
+    ]
+  },
+  {
+    "scientificName": "Agaricus campestris",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly), Amanita virosa (deadly), Amanita verna (deadly), Agaricus xanthodermus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale), Amanita virosa (mortale), Amanita verna (mortale), Agaricus xanthodermus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal), Amanita virosa (mortal), Amanita verna (mortal), Agaricus xanthodermus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Amanita virosa",
+      "Amanita verna",
+      "Leucoagaricus leucothites",
+      "Agaricus xanthodermus"
+    ]
+  },
+  {
+    "scientificName": "Agaricus arvensis",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly), Amanita virosa (deadly), Amanita verna (deadly), Agaricus xanthodermus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale), Amanita virosa (mortale), Amanita verna (mortale), Agaricus xanthodermus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal), Amanita virosa (mortal), Amanita verna (mortal), Agaricus xanthodermus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Amanita virosa",
+      "Amanita verna",
+      "Agaricus xanthodermus"
+    ]
+  },
+  {
+    "scientificName": "Agaricus sylvicola",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly), Amanita virosa (deadly), Agaricus xanthodermus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale), Amanita virosa (mortale), Agaricus xanthodermus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal), Amanita virosa (mortal), Agaricus xanthodermus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Amanita virosa",
+      "Agaricus xanthodermus"
+    ]
+  },
+  {
+    "scientificName": "Agaricus xanthodermus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains phenol and causes gastrointestinal poisoning.",
+        "it": "L'intero fungo contiene fenolo e causa un'intossicazione gastrointestinale.",
+        "es": "Toda la seta contiene fenol y causa una intoxicación gastrointestinal."
+      }
+    },
+    "lookalikes": [
+      "Agaricus campestris",
+      "Agaricus arvensis",
+      "Agaricus sylvicola"
+    ]
+  },
+  {
+    "scientificName": "Clitocybe rivulosa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains muscarine, causing sweating, salivation, slow heartbeat and potentially fatal collapse.",
+        "it": "L'intero fungo contiene muscarina, che causa sudorazione, salivazione, rallentamento del battito e un collasso potenzialmente mortale.",
+        "es": "Toda la seta contiene muscarina, que causa sudoración, salivación, pulso lento y un colapso potencialmente mortal."
+      }
+    },
+    "lookalikes": [
+      "Marasmius oreades",
+      "Clitopilus prunulus",
+      "Calocybe gambosa"
+    ]
+  },
+  {
+    "scientificName": "Clitocybe nebularis",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Causes gastrointestinal upset in many people and is confused with the toxic Entoloma sinuatum.",
+        "it": "Causa disturbi gastrointestinali in molte persone ed è confondibile con il tossico Entoloma sinuatum.",
+        "es": "Causa trastornos gastrointestinales en muchas personas y se confunde con el tóxico Entoloma sinuatum."
+      }
+    },
+    "lookalikes": [
+      "Entoloma sinuatum"
+    ]
+  },
+  {
+    "scientificName": "Paralepistopsis amoenolens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains acromelic acids causing weeks of severe burning pain in hands and feet.",
+        "it": "L'intero fungo contiene acidi acromelici che causano per settimane forti dolori urenti a mani e piedi.",
+        "es": "Toda la seta contiene ácidos acromélicos que causan durante semanas un dolor ardiente intenso en manos y pies."
+      }
+    },
+    "lookalikes": [
+      "Paralepista flaccida",
+      "Infundibulicybe geotropa"
+    ]
+  },
+  {
+    "scientificName": "Paralepista flaccida",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Paralepistopsis amoenolens (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Paralepistopsis amoenolens (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Paralepistopsis amoenolens (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Paralepistopsis amoenolens"
+    ]
+  },
+  {
+    "scientificName": "Infundibulicybe geotropa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Paralepistopsis amoenolens (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Paralepistopsis amoenolens (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Paralepistopsis amoenolens (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Paralepistopsis amoenolens"
+    ]
+  },
+  {
+    "scientificName": "Inosperma erubescens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom contains high levels of muscarine and has caused fatal poisonings.",
+        "it": "L'intero fungo contiene elevate quantità di muscarina e ha causato intossicazioni mortali.",
+        "es": "Toda la seta contiene altos niveles de muscarina y ha causado intoxicaciones mortales."
+      }
+    },
+    "lookalikes": [
+      "Calocybe gambosa",
+      "Entoloma clypeatum"
+    ]
+  },
+  {
+    "scientificName": "Inocybe geophylla",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains muscarine, causing sweating, salivation and slow heartbeat.",
+        "it": "L'intero fungo contiene muscarina, che causa sudorazione, salivazione e rallentamento del battito.",
+        "es": "Toda la seta contiene muscarina, que causa sudoración, salivación y pulso lento."
+      }
+    },
+    "lookalikes": [
+      "Laccaria amethystina"
+    ]
+  },
+  {
+    "scientificName": "Pseudosperma rimosum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains muscarine, causing sweating, salivation and slow heartbeat.",
+        "it": "L'intero fungo contiene muscarina, che causa sudorazione, salivazione e rallentamento del battito.",
+        "es": "Toda la seta contiene muscarina, que causa sudoración, salivación y pulso lento."
+      }
+    },
+    "lookalikes": [
+      "Marasmius oreades"
+    ]
+  },
+  {
+    "scientificName": "Mycena pura",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains muscarine and causes poisoning with sweating and gastrointestinal symptoms.",
+        "it": "L'intero fungo contiene muscarina e causa un'intossicazione con sudorazione e sintomi gastrointestinali.",
+        "es": "Toda la seta contiene muscarina y causa una intoxicación con sudoración y síntomas gastrointestinales."
+      }
+    },
+    "lookalikes": [
+      "Laccaria amethystina"
+    ]
+  },
+  {
+    "scientificName": "Laccaria amethystina",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Can accumulate arsenic and is confused with the toxic Mycena pura and Inocybe geophylla.",
+        "it": "Può accumulare arsenico ed è confondibile con le tossiche Mycena pura e Inocybe geophylla.",
+        "es": "Puede acumular arsénico y se confunde con las tóxicas Mycena pura e Inocybe geophylla."
+      }
+    },
+    "lookalikes": [
+      "Inocybe geophylla",
+      "Mycena pura"
+    ]
+  },
+  {
+    "scientificName": "Entoloma sinuatum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes severe, prolonged gastrointestinal poisoning that is occasionally fatal.",
+        "it": "L'intero fungo causa un'intossicazione gastrointestinale grave e prolungata, talvolta mortale.",
+        "es": "Toda la seta causa una intoxicación gastrointestinal grave y prolongada, a veces mortal."
+      }
+    },
+    "lookalikes": [
+      "Calocybe gambosa",
+      "Clitocybe nebularis",
+      "Clitopilus prunulus",
+      "Entoloma clypeatum"
+    ]
+  },
+  {
+    "scientificName": "Entoloma clypeatum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw and easily confused with poisonous Entoloma and Inocybe species.",
+        "it": "Tossico da crudo e facilmente confondibile con Entoloma e Inocybe velenosi.",
+        "es": "Tóxico en crudo y fácil de confundir con Entoloma e Inocybe venenosos."
+      }
+    },
+    "lookalikes": [
+      "Inosperma erubescens",
+      "Entoloma sinuatum"
+    ]
+  },
+  {
+    "scientificName": "Calocybe gambosa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita verna (deadly), Clitocybe rivulosa (deadly), Inosperma erubescens (deadly), Entoloma sinuatum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita verna (mortale), Clitocybe rivulosa (mortale), Inosperma erubescens (mortale), Entoloma sinuatum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita verna (mortal), Clitocybe rivulosa (mortal), Inosperma erubescens (mortal), Entoloma sinuatum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Amanita verna",
+      "Clitocybe rivulosa",
+      "Inosperma erubescens",
+      "Entoloma sinuatum"
+    ]
+  },
+  {
+    "scientificName": "Clitopilus prunulus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Clitocybe rivulosa (deadly), Entoloma sinuatum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Clitocybe rivulosa (mortale), Entoloma sinuatum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Clitocybe rivulosa (mortal), Entoloma sinuatum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Clitocybe rivulosa",
+      "Entoloma sinuatum"
+    ]
+  },
+  {
+    "scientificName": "Marasmius oreades",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Lepiota brunneoincarnata (deadly), Lepiota subincarnata (deadly), Clitocybe rivulosa (deadly), Pseudosperma rimosum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Lepiota brunneoincarnata (mortale), Lepiota subincarnata (mortale), Clitocybe rivulosa (mortale), Pseudosperma rimosum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Lepiota brunneoincarnata (mortal), Lepiota subincarnata (mortal), Clitocybe rivulosa (mortal), Pseudosperma rimosum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Lepiota brunneoincarnata",
+      "Lepiota subincarnata",
+      "Clitocybe rivulosa",
+      "Pseudosperma rimosum"
+    ]
+  },
+  {
+    "scientificName": "Omphalotus olearius",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains illudins that cause severe vomiting and cramps.",
+        "it": "L'intero fungo contiene illudine che causano vomito intenso e crampi.",
+        "es": "Toda la seta contiene iludinas que causan vómitos intensos y calambres."
+      }
+    },
+    "lookalikes": [
+      "Cantharellus cibarius",
+      "Hygrophoropsis aurantiaca"
+    ]
+  },
+  {
+    "scientificName": "Hygrophoropsis aurantiaca",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Reported to cause gastrointestinal upset and confused with the toxic Omphalotus olearius.",
+        "it": "Sono segnalati disturbi gastrointestinali ed è confondibile con il tossico Omphalotus olearius.",
+        "es": "Se han descrito trastornos gastrointestinales y se confunde con el tóxico Omphalotus olearius."
+      }
+    },
+    "lookalikes": [
+      "Cantharellus cibarius",
+      "Omphalotus olearius"
+    ]
+  },
+  {
+    "scientificName": "Cantharellus cibarius",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Cortinarius orellanus (deadly), Cortinarius rubellus (deadly), Omphalotus olearius (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Cortinarius orellanus (mortale), Cortinarius rubellus (mortale), Omphalotus olearius (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Cortinarius orellanus (mortal), Cortinarius rubellus (mortal), Omphalotus olearius (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Cortinarius orellanus",
+      "Cortinarius rubellus",
+      "Omphalotus olearius",
+      "Hygrophoropsis aurantiaca"
+    ]
+  },
+  {
+    "scientificName": "Craterellus tubaeformis",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Cortinarius orellanus (deadly), Cortinarius rubellus (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Cortinarius orellanus (mortale), Cortinarius rubellus (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Cortinarius orellanus (mortal), Cortinarius rubellus (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Cortinarius orellanus",
+      "Cortinarius rubellus"
+    ]
+  },
+  {
+    "scientificName": "Craterellus lutescens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Cortinarius rubellus (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Cortinarius rubellus (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Cortinarius rubellus (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Cortinarius rubellus"
+    ]
+  },
+  {
+    "scientificName": "Craterellus cornucopioides",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Hydnum repandum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Rubroboletus satanas",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes violent, prolonged vomiting and diarrhoea, especially when raw.",
+        "it": "L'intero fungo causa vomito e diarrea violenti e prolungati, soprattutto da crudo.",
+        "es": "Toda la seta causa vómitos y diarrea violentos y prolongados, sobre todo en crudo."
+      }
+    },
+    "lookalikes": [
+      "Neoboletus erythropus",
+      "Suillellus luridus",
+      "Boletus edulis",
+      "Caloboletus calopus",
+      "Rubroboletus rhodoxanthus"
+    ]
+  },
+  {
+    "scientificName": "Rubroboletus rhodoxanthus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes severe gastrointestinal poisoning.",
+        "it": "L'intero fungo causa una grave intossicazione gastrointestinale.",
+        "es": "Toda la seta causa una intoxicación gastrointestinal grave."
+      }
+    },
+    "lookalikes": [
+      "Neoboletus erythropus",
+      "Suillellus luridus",
+      "Rubroboletus satanas"
+    ]
+  },
+  {
+    "scientificName": "Suillellus luridus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw or undercooked and reported to react with alcohol; confused with toxic red-pored boletes.",
+        "it": "Tossico da crudo o poco cotto, con segnalazioni di reazioni con l'alcol; confondibile con boleti tossici a pori rossi.",
+        "es": "Tóxico en crudo o poco cocinado, con reacciones descritas con el alcohol; se confunde con boletos tóxicos de poros rojos."
+      }
+    },
+    "lookalikes": [
+      "Neoboletus erythropus",
+      "Rubroboletus satanas",
+      "Rubroboletus rhodoxanthus"
+    ]
+  },
+  {
+    "scientificName": "Neoboletus erythropus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw or undercooked and confused with toxic red-pored boletes.",
+        "it": "Tossico da crudo o poco cotto e confondibile con boleti tossici a pori rossi.",
+        "es": "Tóxico en crudo o poco cocinado y fácil de confundir con boletos tóxicos de poros rojos."
+      }
+    },
+    "lookalikes": [
+      "Rubroboletus satanas",
+      "Rubroboletus rhodoxanthus",
+      "Suillellus luridus"
+    ]
+  },
+  {
+    "scientificName": "Caloboletus calopus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Very bitter flesh that causes gastrointestinal upset.",
+        "it": "Carne molto amara che causa disturbi gastrointestinali.",
+        "es": "Carne muy amarga que causa trastornos gastrointestinales."
+      }
+    },
+    "lookalikes": [
+      "Boletus edulis",
+      "Rubroboletus satanas"
+    ]
+  },
+  {
+    "scientificName": "Tylopilus felleus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Extremely bitter flesh that can cause gastrointestinal upset.",
+        "it": "Carne estremamente amara che può causare disturbi gastrointestinali.",
+        "es": "Carne extremadamente amarga que puede causar trastornos gastrointestinales."
+      }
+    },
+    "lookalikes": [
+      "Boletus edulis",
+      "Boletus reticulatus"
+    ]
+  },
+  {
+    "scientificName": "Boletus edulis",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Rubroboletus satanas (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Rubroboletus satanas (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Rubroboletus satanas (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Rubroboletus satanas",
+      "Caloboletus calopus",
+      "Tylopilus felleus"
+    ]
+  },
+  {
+    "scientificName": "Boletus aereus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Boletus reticulatus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": [
+      "Tylopilus felleus"
+    ]
+  },
+  {
+    "scientificName": "Imleria badia",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Xerocomellus chrysenteron",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Suillus luteus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The slimy cap skin causes gastrointestinal upset in some people.",
+        "it": "La cuticola viscida del cappello causa disturbi gastrointestinali in alcune persone.",
+        "es": "La cutícula viscosa del sombrero causa trastornos gastrointestinales en algunas personas."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Suillus granulatus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The slimy cap skin causes gastrointestinal upset in some people and handling can cause contact dermatitis.",
+        "it": "La cuticola viscida causa disturbi gastrointestinali in alcune persone e il contatto può provocare dermatite.",
+        "es": "La cutícula viscosa causa trastornos gastrointestinales en algunas personas y el contacto puede provocar dermatitis."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Leccinum scabrum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw or undercooked, causing gastrointestinal poisoning.",
+        "it": "Tossico da crudo o poco cotto, con intossicazione gastrointestinale.",
+        "es": "Tóxico en crudo o poco cocinado, con intoxicación gastrointestinal."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Paxillus involutus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom can trigger an immune reaction that destroys red blood cells and has caused deaths, even after years of eating it.",
+        "it": "L'intero fungo può scatenare una reazione immunitaria che distrugge i globuli rossi e ha causato decessi, anche dopo anni di consumo.",
+        "es": "Toda la seta puede desencadenar una reacción inmunitaria que destruye los glóbulos rojos y ha causado muertes, incluso tras años de consumo."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Kuehneromyces mutabilis",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Galerina marginata (deadly), Pholiotina rugosa (deadly), Hypholoma fasciculare (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Galerina marginata (mortale), Pholiotina rugosa (mortale), Hypholoma fasciculare (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Galerina marginata (mortal), Pholiotina rugosa (mortal), Hypholoma fasciculare (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Galerina marginata",
+      "Pholiotina rugosa",
+      "Hypholoma fasciculare"
+    ]
+  },
+  {
+    "scientificName": "Armillaria mellea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw or undercooked, causing gastrointestinal poisoning.",
+        "it": "Tossica da cruda o poco cotta, con intossicazione gastrointestinale.",
+        "es": "Tóxica en crudo o poco cocinada, con intoxicación gastrointestinal."
+      }
+    },
+    "lookalikes": [
+      "Galerina marginata",
+      "Hypholoma fasciculare",
+      "Gymnopilus junonius"
+    ]
+  },
+  {
+    "scientificName": "Hypholoma fasciculare",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom is bitter and causes serious gastrointestinal poisoning, with rare deaths reported.",
+        "it": "L'intero fungo è amaro e causa una seria intossicazione gastrointestinale, con rari decessi segnalati.",
+        "es": "Toda la seta es amarga y causa una intoxicación gastrointestinal seria, con raras muertes descritas."
+      }
+    },
+    "lookalikes": [
+      "Hypholoma capnoides",
+      "Armillaria mellea",
+      "Kuehneromyces mutabilis"
+    ]
+  },
+  {
+    "scientificName": "Hypholoma capnoides",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Galerina marginata (deadly), Hypholoma fasciculare (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Galerina marginata (mortale), Hypholoma fasciculare (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Galerina marginata (mortal), Hypholoma fasciculare (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Galerina marginata",
+      "Hypholoma fasciculare"
+    ]
+  },
+  {
+    "scientificName": "Flammulina velutipes",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Galerina marginata (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Galerina marginata (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Galerina marginata (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Galerina marginata"
+    ]
+  },
+  {
+    "scientificName": "Gymnopilus junonius",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom is very bitter and can cause gastrointestinal and hallucinogenic poisoning.",
+        "it": "L'intero fungo è molto amaro e può causare un'intossicazione gastrointestinale e allucinogena.",
+        "es": "Toda la seta es muy amarga y puede causar una intoxicación gastrointestinal y alucinógena."
+      }
+    },
+    "lookalikes": [
+      "Armillaria mellea"
+    ]
+  },
+  {
+    "scientificName": "Cyclocybe cylindracea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Tricholoma equestre",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "Whole mushroom has caused fatal muscle breakdown (rhabdomyolysis) after repeated meals.",
+        "it": "L'intero fungo ha causato una distruzione muscolare mortale (rabdomiolisi) dopo pasti ripetuti.",
+        "es": "Toda la seta ha causado una destrucción muscular mortal (rabdomiólisis) tras comidas repetidas."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Cortinarius splendens"
+    ]
+  },
+  {
+    "scientificName": "Tricholoma pardinum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes severe, prolonged gastrointestinal poisoning.",
+        "it": "L'intero fungo causa un'intossicazione gastrointestinale grave e prolungata.",
+        "es": "Toda la seta causa una intoxicación gastrointestinal grave y prolongada."
+      }
+    },
+    "lookalikes": [
+      "Tricholoma terreum",
+      "Tricholoma portentosum"
+    ]
+  },
+  {
+    "scientificName": "Tricholoma terreum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Suspected of causing muscle damage in large amounts and confused with the toxic Tricholoma pardinum.",
+        "it": "Sospettato di causare danni muscolari se consumato in grande quantità e confondibile con il tossico Tricholoma pardinum.",
+        "es": "Se sospecha que causa daño muscular en grandes cantidades y se confunde con el tóxico Tricholoma pardinum."
+      }
+    },
+    "lookalikes": [
+      "Tricholoma pardinum"
+    ]
+  },
+  {
+    "scientificName": "Tricholoma portentosum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Tricholoma pardinum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Tricholoma pardinum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Tricholoma pardinum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Tricholoma pardinum"
+    ]
+  },
+  {
+    "scientificName": "Lepista nuda",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Toxic when raw, causing gastrointestinal upset; confused with violet Cortinarius species.",
+        "it": "Tossica da cruda, con disturbi gastrointestinali; confondibile con Cortinarius violetti.",
+        "es": "Tóxica en crudo, con trastornos gastrointestinales; se confunde con Cortinarius violetas."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Russula emetica",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom is acrid and causes vomiting and diarrhoea.",
+        "it": "L'intero fungo è acre e causa vomito e diarrea.",
+        "es": "Toda la seta es acre y causa vómitos y diarrea."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Russula virescens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides"
+    ]
+  },
+  {
+    "scientificName": "Russula cyanoxantha",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides"
+    ]
+  },
+  {
+    "scientificName": "Russula aeruginea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides"
+    ]
+  },
+  {
+    "scientificName": "Lactarius deliciosus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Lactarius torminosus (toxic), Lactarius chrysorrheus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Lactarius torminosus (tossica), Lactarius chrysorrheus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Lactarius torminosus (tóxica), Lactarius chrysorrheus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Lactarius torminosus",
+      "Lactarius chrysorrheus"
+    ]
+  },
+  {
+    "scientificName": "Lactarius sanguifluus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Lactarius chrysorrheus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Lactarius chrysorrheus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Lactarius chrysorrheus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Lactarius chrysorrheus"
+    ]
+  },
+  {
+    "scientificName": "Lactarius torminosus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom has acrid milk that causes severe gastrointestinal irritation.",
+        "it": "L'intero fungo ha un lattice acre che causa una forte irritazione gastrointestinale.",
+        "es": "Toda la seta tiene un látex acre que causa una fuerte irritación gastrointestinal."
+      }
+    },
+    "lookalikes": [
+      "Lactarius deliciosus"
+    ]
+  },
+  {
+    "scientificName": "Lactarius chrysorrheus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom has acrid milk that causes gastrointestinal poisoning.",
+        "it": "L'intero fungo ha un lattice acre che causa un'intossicazione gastrointestinale.",
+        "es": "Toda la seta tiene un látex acre que causa una intoxicación gastrointestinal."
+      }
+    },
+    "lookalikes": [
+      "Lactarius deliciosus",
+      "Lactarius sanguifluus"
+    ]
+  },
+  {
+    "scientificName": "Coprinus comatus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Coprinopsis atramentaria (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Coprinopsis atramentaria (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Coprinopsis atramentaria (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Coprinopsis atramentaria"
+    ]
+  },
+  {
+    "scientificName": "Coprinopsis atramentaria",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains coprine, which causes flushing, nausea and palpitations when alcohol is drunk within days.",
+        "it": "L'intero fungo contiene coprina, che causa vampate, nausea e palpitazioni se si bevono alcolici nei giorni vicini.",
+        "es": "Toda la seta contiene coprina, que causa sofocos, náuseas y palpitaciones si se bebe alcohol en días próximos."
+      }
+    },
+    "lookalikes": [
+      "Coprinus comatus"
+    ]
+  },
+  {
+    "scientificName": "Psilocybe semilanceata",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom contains psilocybin, causing hallucinations, anxiety and loss of coordination.",
+        "it": "L'intero fungo contiene psilocibina, che causa allucinazioni, ansia e perdita di coordinazione.",
+        "es": "Toda la seta contiene psilocibina, que causa alucinaciones, ansiedad y pérdida de coordinación."
+      }
+    },
+    "lookalikes": [
+      "Pholiotina rugosa"
+    ]
+  },
+  {
+    "scientificName": "Hebeloma crustuliniforme",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes gastrointestinal poisoning.",
+        "it": "L'intero fungo causa un'intossicazione gastrointestinale.",
+        "es": "Toda la seta causa una intoxicación gastrointestinal."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Volvopluteus gloiocephalus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Amanita phalloides (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Amanita phalloides (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Amanita phalloides (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides"
+    ]
+  },
+  {
+    "scientificName": "Pleurotus ostreatus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Pleurocybella porrigens (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Pleurocybella porrigens (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Pleurocybella porrigens (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Pleurocybella porrigens"
+    ]
+  },
+  {
+    "scientificName": "Pleurotus eryngii",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Pleurocybella porrigens",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom has been linked to fatal brain damage in people with kidney disease.",
+        "it": "L'intero fungo è stato associato a danni cerebrali mortali in persone con malattie renali.",
+        "es": "Toda la seta se ha relacionado con daños cerebrales mortales en personas con enfermedad renal."
+      }
+    },
+    "lookalikes": [
+      "Pleurotus ostreatus"
+    ]
+  },
+  {
+    "scientificName": "Scleroderma citrinum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole mushroom causes gastrointestinal poisoning and its spores can irritate eyes and airways.",
+        "it": "L'intero fungo causa un'intossicazione gastrointestinale e le spore possono irritare occhi e vie respiratorie.",
+        "es": "Toda la seta causa una intoxicación gastrointestinal y sus esporas pueden irritar ojos y vías respiratorias."
+      }
+    },
+    "lookalikes": [
+      "Lycoperdon perlatum",
+      "Calvatia gigantea",
+      "Tuber aestivum",
+      "Tuber melanosporum"
+    ]
+  },
+  {
+    "scientificName": "Lycoperdon perlatum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Young specimens resemble the egg stage of deadly Amanita species and inhaled spores can irritate the lungs.",
+        "it": "Gli esemplari giovani somigliano agli ovoli delle Amanita mortali e le spore inalate possono irritare i polmoni.",
+        "es": "Los ejemplares jóvenes se parecen a los huevos de las Amanita mortales y las esporas inhaladas pueden irritar los pulmones."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides",
+      "Scleroderma citrinum"
+    ]
+  },
+  {
+    "scientificName": "Calvatia gigantea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Scleroderma citrinum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Scleroderma citrinum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Scleroderma citrinum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Scleroderma citrinum"
+    ]
+  },
+  {
+    "scientificName": "Tuber melanosporum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Scleroderma citrinum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Scleroderma citrinum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Scleroderma citrinum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Scleroderma citrinum"
+    ]
+  },
+  {
+    "scientificName": "Tuber aestivum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Scleroderma citrinum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Scleroderma citrinum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Scleroderma citrinum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Scleroderma citrinum"
+    ]
+  },
+  {
+    "scientificName": "Phallus impudicus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The egg stage can be confused with the egg stage of deadly Amanita species.",
+        "it": "Lo stadio di ovolo è confondibile con gli ovoli delle Amanita mortali.",
+        "es": "La fase de huevo se confunde con los huevos de las Amanita mortales."
+      }
+    },
+    "lookalikes": [
+      "Amanita phalloides"
+    ]
+  },
+  {
+    "scientificName": "Clathrus ruber",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Reported to cause gastrointestinal upset.",
+        "it": "Sono segnalati disturbi gastrointestinali.",
+        "es": "Se han descrito trastornos gastrointestinales."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Laetiporus sulphureus",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Causes gastrointestinal and allergic reactions in some people, especially when raw or growing on yew.",
+        "it": "Causa reazioni gastrointestinali e allergiche in alcune persone, soprattutto da crudo o se cresce su tasso.",
+        "es": "Causa reacciones gastrointestinales y alérgicas en algunas personas, sobre todo en crudo o si crece sobre tejo."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Hapalopilus rutilans",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole fungus contains polyporic acid, which causes kidney and neurological damage.",
+        "it": "L'intero fungo contiene acido poliporico, che causa danni renali e neurologici.",
+        "es": "Todo el hongo contiene ácido polipórico, que causa daño renal y neurológico."
+      }
+    },
+    "lookalikes": [
+      "Fistulina hepatica"
+    ]
+  },
+  {
+    "scientificName": "Fistulina hepatica",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Hapalopilus rutilans (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Hapalopilus rutilans (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Hapalopilus rutilans (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Hapalopilus rutilans"
+    ]
+  },
+  {
+    "scientificName": "Sparassis crispa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Fomes fomentarius",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Fomitopsis betulina",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ganoderma lucidum",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Trametes versicolor",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ramaria formosa",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Whole fungus causes gastrointestinal poisoning with cramps and diarrhoea.",
+        "it": "L'intero fungo causa un'intossicazione gastrointestinale con crampi e diarrea.",
+        "es": "Todo el hongo causa una intoxicación gastrointestinal con calambres y diarrea."
+      }
+    },
+    "lookalikes": [
+      "Ramaria botrytis"
+    ]
+  },
+  {
+    "scientificName": "Ramaria botrytis",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Ramaria formosa (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Ramaria formosa (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Ramaria formosa (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Ramaria formosa"
+    ]
+  },
+  {
+    "scientificName": "Auricularia auricula-judae",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Sarcoscypha coccinea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Claviceps purpurea",
+    "kind": "fungus",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "The sclerotia on cereal ears contain ergot alkaloids causing convulsions and gangrene that can be fatal.",
+        "it": "Gli sclerozi sulle spighe dei cereali contengono alcaloidi dell'ergot che causano convulsioni e cancrena potenzialmente mortali.",
+        "es": "Los esclerocios de las espigas de cereal contienen alcaloides del cornezuelo que causan convulsiones y gangrena potencialmente mortales."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Aconitum napellus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the root, contain aconitine, which causes fatal heart and nerve poisoning and is absorbed through the skin.",
+        "it": "Tutte le parti, soprattutto la radice, contengono aconitina, che causa un'intossicazione cardiaca e nervosa mortale ed è assorbita anche dalla pelle.",
+        "es": "Todas las partes, sobre todo la raíz, contienen aconitina, que causa una intoxicación cardíaca y nerviosa mortal y se absorbe por la piel."
+      }
+    },
+    "lookalikes": [
+      "Cicerbita alpina",
+      "Aruncus dioicus",
+      "Delphinium consolida"
+    ]
+  },
+  {
+    "scientificName": "Aconitum lycoctonum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain alkaloids that cause fatal heart and nerve poisoning.",
+        "it": "Tutte le parti contengono alcaloidi che causano un'intossicazione cardiaca e nervosa mortale.",
+        "es": "Todas las partes contienen alcaloides que causan una intoxicación cardíaca y nerviosa mortal."
+      }
+    },
+    "lookalikes": [
+      "Cicerbita alpina",
+      "Aruncus dioicus"
+    ]
+  },
+  {
+    "scientificName": "Cicerbita alpina",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Aconitum napellus (deadly), Aconitum lycoctonum (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Aconitum napellus (mortale), Aconitum lycoctonum (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Aconitum napellus (mortal), Aconitum lycoctonum (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Aconitum napellus",
+      "Aconitum lycoctonum"
+    ]
+  },
+  {
+    "scientificName": "Aruncus dioicus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains cyanogenic compounds when raw and its young shoots are confused with deadly Aconitum.",
+        "it": "Da crudo contiene composti cianogenici e i giovani germogli sono confondibili con i mortali Aconitum.",
+        "es": "En crudo contiene compuestos cianogénicos y sus brotes jóvenes se confunden con los mortales Aconitum."
+      }
+    },
+    "lookalikes": [
+      "Aconitum napellus",
+      "Aconitum lycoctonum"
+    ]
+  },
+  {
+    "scientificName": "Delphinium consolida",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the seeds, contain alkaloids that affect the heart and nerves.",
+        "it": "Tutte le parti, soprattutto i semi, contengono alcaloidi che agiscono su cuore e nervi.",
+        "es": "Todas las partes, sobre todo las semillas, contienen alcaloides que afectan al corazón y los nervios."
+      }
+    },
+    "lookalikes": [
+      "Aconitum napellus"
+    ]
+  },
+  {
+    "scientificName": "Atropa belladonna",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the berries, contain tropane alkaloids causing delirium, racing heart and potentially fatal poisoning.",
+        "it": "Tutte le parti, soprattutto le bacche, contengono alcaloidi tropanici che causano delirio, tachicardia e un'intossicazione potenzialmente mortale.",
+        "es": "Todas las partes, sobre todo las bayas, contienen alcaloides tropánicos que causan delirio, taquicardia y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": [
+      "Vaccinium myrtillus",
+      "Prunus avium",
+      "Solanum nigrum"
+    ]
+  },
+  {
+    "scientificName": "Datura stramonium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the seeds, contain tropane alkaloids causing delirium, racing heart and potentially fatal poisoning.",
+        "it": "Tutte le parti, soprattutto i semi, contengono alcaloidi tropanici che causano delirio, tachicardia e un'intossicazione potenzialmente mortale.",
+        "es": "Todas las partes, sobre todo las semillas, contienen alcaloides tropánicos que causan delirio, taquicardia y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": [
+      "Chenopodium album"
+    ]
+  },
+  {
+    "scientificName": "Hyoscyamus niger",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain tropane alkaloids causing delirium, racing heart and potentially fatal poisoning.",
+        "it": "Tutte le parti contengono alcaloidi tropanici che causano delirio, tachicardia e un'intossicazione potenzialmente mortale.",
+        "es": "Todas las partes contienen alcaloides tropánicos que causan delirio, taquicardia y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Hyoscyamus albus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain tropane alkaloids causing delirium, racing heart and potentially fatal poisoning.",
+        "it": "Tutte le parti contengono alcaloidi tropanici che causano delirio, tachicardia e un'intossicazione potenzialmente mortale.",
+        "es": "Todas las partes contienen alcaloides tropánicos que causan delirio, taquicardia y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Mandragora autumnalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially root and leaves, contain tropane alkaloids causing delirium and potentially fatal poisoning.",
+        "it": "Tutte le parti, soprattutto radice e foglie, contengono alcaloidi tropanici che causano delirio e un'intossicazione potenzialmente mortale.",
+        "es": "Todas las partes, sobre todo la raíz y las hojas, contienen alcaloides tropánicos que causan delirio y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": [
+      "Borago officinalis",
+      "Beta vulgaris"
+    ]
+  },
+  {
+    "scientificName": "Nicotiana glauca",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain anabasine, which causes paralysis of the breathing muscles and has caused deaths.",
+        "it": "Tutte le parti contengono anabasina, che causa la paralisi dei muscoli respiratori e ha provocato decessi.",
+        "es": "Todas las partes contienen anabasina, que causa parálisis de los músculos respiratorios y ha provocado muertes."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Solanum dulcamara",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially unripe berries, contain solanine-type alkaloids causing vomiting and neurological symptoms.",
+        "it": "Tutte le parti, soprattutto le bacche acerbe, contengono alcaloidi di tipo solanina che causano vomito e sintomi neurologici.",
+        "es": "Todas las partes, sobre todo las bayas inmaduras, contienen alcaloides de tipo solanina que causan vómitos y síntomas neurológicos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Solanum nigrum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Green parts and unripe berries contain solanine-type alkaloids causing vomiting and neurological symptoms.",
+        "it": "Le parti verdi e le bacche acerbe contengono alcaloidi di tipo solanina che causano vomito e sintomi neurologici.",
+        "es": "Las partes verdes y las bayas inmaduras contienen alcaloides de tipo solanina que causan vómitos y síntomas neurológicos."
+      }
+    },
+    "lookalikes": [
+      "Vaccinium myrtillus",
+      "Atropa belladonna"
+    ]
+  },
+  {
+    "scientificName": "Conium maculatum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain coniine, which causes ascending paralysis and death by respiratory failure.",
+        "it": "Tutte le parti contengono coniina, che causa una paralisi ascendente e la morte per arresto respiratorio.",
+        "es": "Todas las partes contienen coniína, que causa una parálisis ascendente y la muerte por parada respiratoria."
+      }
+    },
+    "lookalikes": [
+      "Daucus carota",
+      "Petroselinum crispum",
+      "Anthriscus sylvestris",
+      "Foeniculum vulgare",
+      "Carum carvi",
+      "Myrrhis odorata",
+      "Aegopodium podagraria"
+    ]
+  },
+  {
+    "scientificName": "Cicuta virosa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the root, contain cicutoxin, which causes violent seizures and death.",
+        "it": "Tutte le parti, soprattutto la radice, contengono cicutossina, che causa convulsioni violente e la morte.",
+        "es": "Todas las partes, sobre todo la raíz, contienen cicutoxina, que causa convulsiones violentas y la muerte."
+      }
+    },
+    "lookalikes": [
+      "Angelica sylvestris",
+      "Apium graveolens",
+      "Pastinaca sativa"
+    ]
+  },
+  {
+    "scientificName": "Oenanthe crocata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the roots, contain oenanthotoxin, which causes violent seizures and death.",
+        "it": "Tutte le parti, soprattutto le radici, contengono enantotossina, che causa convulsioni violente e la morte.",
+        "es": "Todas las partes, sobre todo las raíces, contienen enantotoxina, que causa convulsiones violentas y la muerte."
+      }
+    },
+    "lookalikes": [
+      "Apium graveolens",
+      "Pastinaca sativa",
+      "Daucus carota",
+      "Petroselinum crispum",
+      "Smyrnium olusatrum"
+    ]
+  },
+  {
+    "scientificName": "Aethusa cynapium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain polyacetylene toxins and alkaloids that have been blamed for fatal poisonings.",
+        "it": "Tutte le parti contengono tossine poliacetileniche e alcaloidi a cui sono state attribuite intossicazioni mortali.",
+        "es": "Todas las partes contienen toxinas poliacetilénicas y alcaloides a los que se han atribuido intoxicaciones mortales."
+      }
+    },
+    "lookalikes": [
+      "Petroselinum crispum",
+      "Anthriscus sylvestris",
+      "Aegopodium podagraria"
+    ]
+  },
+  {
+    "scientificName": "Chaerophyllum temulum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain a toxin causing dizziness, gastrointestinal upset and loss of coordination.",
+        "it": "Tutte le parti contengono una tossina che causa vertigini, disturbi gastrointestinali e perdita di coordinazione.",
+        "es": "Todas las partes contienen una toxina que causa mareo, trastornos gastrointestinales y pérdida de coordinación."
+      }
+    },
+    "lookalikes": [
+      "Anthriscus sylvestris",
+      "Myrrhis odorata"
+    ]
+  },
+  {
+    "scientificName": "Ferula communis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain anticoagulant compounds that cause internal bleeding.",
+        "it": "Tutte le parti contengono composti anticoagulanti che causano emorragie interne.",
+        "es": "Todas las partes contienen compuestos anticoagulantes que causan hemorragias internas."
+      }
+    },
+    "lookalikes": [
+      "Foeniculum vulgare"
+    ]
+  },
+  {
+    "scientificName": "Heracleum mantegazzianum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The sap contains furanocoumarins that cause severe skin burns and blisters in sunlight.",
+        "it": "La linfa contiene furanocumarine che causano gravi ustioni e vesciche cutanee alla luce del sole.",
+        "es": "La savia contiene furanocumarinas que causan graves quemaduras y ampollas en la piel con la luz solar."
+      }
+    },
+    "lookalikes": [
+      "Heracleum sphondylium",
+      "Angelica sylvestris"
+    ]
+  },
+  {
+    "scientificName": "Heracleum sphondylium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The sap can cause skin burns in sunlight, and the plant is confused with toxic umbellifers.",
+        "it": "La linfa può causare ustioni cutanee alla luce del sole e la pianta è confondibile con ombrellifere tossiche.",
+        "es": "La savia puede causar quemaduras en la piel con la luz solar y la planta se confunde con umbelíferas tóxicas."
+      }
+    },
+    "lookalikes": [
+      "Heracleum mantegazzianum"
+    ]
+  },
+  {
+    "scientificName": "Pastinaca sativa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The sap can cause skin burns in sunlight, and the root is confused with deadly water-dropworts and hemlocks.",
+        "it": "La linfa può causare ustioni cutanee alla luce del sole e la radice è confondibile con quelle mortali di Oenanthe e cicute.",
+        "es": "La savia puede causar quemaduras en la piel con la luz solar y la raíz se confunde con las mortales de Oenanthe y cicutas."
+      }
+    },
+    "lookalikes": [
+      "Cicuta virosa",
+      "Oenanthe crocata"
+    ]
+  },
+  {
+    "scientificName": "Angelica sylvestris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The sap can cause skin burns in sunlight, and the plant is confused with the deadly Cicuta virosa.",
+        "it": "La linfa può causare ustioni cutanee alla luce del sole e la pianta è confondibile con la mortale Cicuta virosa.",
+        "es": "La savia puede causar quemaduras en la piel con la luz solar y la planta se confunde con la mortal Cicuta virosa."
+      }
+    },
+    "lookalikes": [
+      "Cicuta virosa",
+      "Heracleum mantegazzianum"
+    ]
+  },
+  {
+    "scientificName": "Daucus carota",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Conium maculatum (deadly), Oenanthe crocata (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Conium maculatum (mortale), Oenanthe crocata (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Conium maculatum (mortal), Oenanthe crocata (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Conium maculatum",
+      "Oenanthe crocata"
+    ]
+  },
+  {
+    "scientificName": "Petroselinum crispum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Conium maculatum (deadly), Oenanthe crocata (deadly), Aethusa cynapium (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Conium maculatum (mortale), Oenanthe crocata (mortale), Aethusa cynapium (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Conium maculatum (mortal), Oenanthe crocata (mortal), Aethusa cynapium (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Conium maculatum",
+      "Oenanthe crocata",
+      "Aethusa cynapium"
+    ]
+  },
+  {
+    "scientificName": "Anthriscus sylvestris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Conium maculatum (deadly), Aethusa cynapium (deadly), Chaerophyllum temulum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Conium maculatum (mortale), Aethusa cynapium (mortale), Chaerophyllum temulum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Conium maculatum (mortal), Aethusa cynapium (mortal), Chaerophyllum temulum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Conium maculatum",
+      "Aethusa cynapium",
+      "Chaerophyllum temulum"
+    ]
+  },
+  {
+    "scientificName": "Foeniculum vulgare",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Conium maculatum (deadly), Ferula communis (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Conium maculatum (mortale), Ferula communis (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Conium maculatum (mortal), Ferula communis (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Conium maculatum",
+      "Ferula communis"
+    ]
+  },
+  {
+    "scientificName": "Carum carvi",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Conium maculatum (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Conium maculatum (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Conium maculatum (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Conium maculatum"
+    ]
+  },
+  {
+    "scientificName": "Myrrhis odorata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Conium maculatum (deadly), Chaerophyllum temulum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Conium maculatum (mortale), Chaerophyllum temulum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Conium maculatum (mortal), Chaerophyllum temulum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Conium maculatum",
+      "Chaerophyllum temulum"
+    ]
+  },
+  {
+    "scientificName": "Apium graveolens",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Cicuta virosa (deadly), Oenanthe crocata (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Cicuta virosa (mortale), Oenanthe crocata (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Cicuta virosa (mortal), Oenanthe crocata (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Cicuta virosa",
+      "Oenanthe crocata"
+    ]
+  },
+  {
+    "scientificName": "Aegopodium podagraria",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with toxic umbellifers such as Conium maculatum and Aethusa cynapium.",
+        "it": "Facilmente confondibile con ombrellifere tossiche come Conium maculatum e Aethusa cynapium.",
+        "es": "Se confunde fácilmente con umbelíferas tóxicas como Conium maculatum y Aethusa cynapium."
+      }
+    },
+    "lookalikes": [
+      "Aethusa cynapium",
+      "Conium maculatum"
+    ]
+  },
+  {
+    "scientificName": "Smyrnium olusatrum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Can be confused with toxic umbellifers such as Oenanthe crocata.",
+        "it": "Confondibile con ombrellifere tossiche come Oenanthe crocata.",
+        "es": "Se puede confundir con umbelíferas tóxicas como Oenanthe crocata."
+      }
+    },
+    "lookalikes": [
+      "Oenanthe crocata"
+    ]
+  },
+  {
+    "scientificName": "Colchicum autumnale",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain colchicine, which causes multi-organ failure and death.",
+        "it": "Tutte le parti contengono colchicina, che causa un'insufficienza multiorgano e la morte.",
+        "es": "Todas las partes contienen colchicina, que causa un fallo multiorgánico y la muerte."
+      }
+    },
+    "lookalikes": [
+      "Allium ursinum",
+      "Crocus vernus",
+      "Allium ampeloprasum"
+    ]
+  },
+  {
+    "scientificName": "Veratrum album",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the root, contain alkaloids causing vomiting, slow heartbeat and potentially fatal collapse.",
+        "it": "Tutte le parti, soprattutto la radice, contengono alcaloidi che causano vomito, rallentamento del battito e un collasso potenzialmente mortale.",
+        "es": "Todas las partes, sobre todo la raíz, contienen alcaloides que causan vómitos, pulso lento y un colapso potencialmente mortal."
+      }
+    },
+    "lookalikes": [
+      "Gentiana lutea"
+    ]
+  },
+  {
+    "scientificName": "Gentiana lutea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Veratrum album (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Veratrum album (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Veratrum album (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Veratrum album"
+    ]
+  },
+  {
+    "scientificName": "Convallaria majalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, including berries, contain cardiac glycosides that cause dangerous heart rhythm disturbances.",
+        "it": "Tutte le parti, bacche comprese, contengono glicosidi cardioattivi che causano pericolose aritmie.",
+        "es": "Todas las partes, incluidas las bayas, contienen glucósidos cardíacos que causan arritmias peligrosas."
+      }
+    },
+    "lookalikes": [
+      "Allium ursinum",
+      "Polygonatum multiflorum"
+    ]
+  },
+  {
+    "scientificName": "Allium ursinum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Colchicum autumnale (deadly), Convallaria majalis (deadly), Arum maculatum (toxic), Arum italicum (toxic), Leucojum vernum (toxic), Galanthus nivalis (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Colchicum autumnale (mortale), Convallaria majalis (mortale), Arum maculatum (tossica), Arum italicum (tossica), Leucojum vernum (tossica), Galanthus nivalis (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Colchicum autumnale (mortal), Convallaria majalis (mortal), Arum maculatum (tóxica), Arum italicum (tóxica), Leucojum vernum (tóxica), Galanthus nivalis (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Colchicum autumnale",
+      "Convallaria majalis",
+      "Arum maculatum",
+      "Arum italicum",
+      "Leucojum vernum",
+      "Galanthus nivalis"
+    ]
+  },
+  {
+    "scientificName": "Allium ampeloprasum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Colchicum autumnale (deadly), Narcissus pseudonarcissus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Colchicum autumnale (mortale), Narcissus pseudonarcissus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Colchicum autumnale (mortal), Narcissus pseudonarcissus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Colchicum autumnale",
+      "Narcissus pseudonarcissus"
+    ]
+  },
+  {
+    "scientificName": "Allium vineale",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Ornithogalum umbellatum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Ornithogalum umbellatum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Ornithogalum umbellatum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Ornithogalum umbellatum"
+    ]
+  },
+  {
+    "scientificName": "Crocus vernus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Colchicum autumnale (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Colchicum autumnale (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Colchicum autumnale (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Colchicum autumnale"
+    ]
+  },
+  {
+    "scientificName": "Arum maculatum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the berries, contain calcium oxalate crystals and toxins causing burning swelling of mouth and throat.",
+        "it": "Tutte le parti, soprattutto le bacche, contengono cristalli di ossalato di calcio e tossine che causano bruciore e gonfiore di bocca e gola.",
+        "es": "Todas las partes, sobre todo las bayas, contienen cristales de oxalato cálcico y toxinas que causan ardor e hinchazón de boca y garganta."
+      }
+    },
+    "lookalikes": [
+      "Allium ursinum",
+      "Rumex acetosa"
+    ]
+  },
+  {
+    "scientificName": "Arum italicum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the berries, contain calcium oxalate crystals and toxins causing burning swelling of mouth and throat.",
+        "it": "Tutte le parti, soprattutto le bacche, contengono cristalli di ossalato di calcio e tossine che causano bruciore e gonfiore di bocca e gola.",
+        "es": "Todas las partes, sobre todo las bayas, contienen cristales de oxalato cálcico y toxinas que causan ardor e hinchazón de boca y garganta."
+      }
+    },
+    "lookalikes": [
+      "Rumex acetosa",
+      "Allium ursinum",
+      "Blitum bonus-henricus"
+    ]
+  },
+  {
+    "scientificName": "Polygonatum multiflorum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the berries, contain saponins causing vomiting and diarrhoea.",
+        "it": "Tutte le parti, soprattutto le bacche, contengono saponine che causano vomito e diarrea.",
+        "es": "Todas las partes, sobre todo las bayas, contienen saponinas que causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": [
+      "Convallaria majalis"
+    ]
+  },
+  {
+    "scientificName": "Paris quadrifolia",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the berry, contain saponins causing vomiting, diarrhoea and neurological symptoms.",
+        "it": "Tutte le parti, soprattutto la bacca, contengono saponine che causano vomito, diarrea e sintomi neurologici.",
+        "es": "Todas las partes, sobre todo la baya, contienen saponinas que causan vómitos, diarrea y síntomas neurológicos."
+      }
+    },
+    "lookalikes": [
+      "Vaccinium myrtillus"
+    ]
+  },
+  {
+    "scientificName": "Leucojum vernum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the bulb, contain alkaloids causing vomiting and heart rhythm disturbances.",
+        "it": "Tutte le parti, soprattutto il bulbo, contengono alcaloidi che causano vomito e disturbi del ritmo cardiaco.",
+        "es": "Todas las partes, sobre todo el bulbo, contienen alcaloides que causan vómitos y alteraciones del ritmo cardíaco."
+      }
+    },
+    "lookalikes": [
+      "Allium ursinum"
+    ]
+  },
+  {
+    "scientificName": "Galanthus nivalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the bulb, contain alkaloids causing vomiting and diarrhoea.",
+        "it": "Tutte le parti, soprattutto il bulbo, contengono alcaloidi che causano vomito e diarrea.",
+        "es": "Todas las partes, sobre todo el bulbo, contienen alcaloides que causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": [
+      "Allium ursinum"
+    ]
+  },
+  {
+    "scientificName": "Narcissus pseudonarcissus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the bulb, contain lycorine causing severe vomiting; bulbs are mistaken for onions.",
+        "it": "Tutte le parti, soprattutto il bulbo, contengono licorina che causa vomito intenso; i bulbi vengono scambiati per cipolle.",
+        "es": "Todas las partes, sobre todo el bulbo, contienen licorina que causa vómitos intensos; los bulbos se confunden con cebollas."
+      }
+    },
+    "lookalikes": [
+      "Allium ampeloprasum"
+    ]
+  },
+  {
+    "scientificName": "Ornithogalum umbellatum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the bulb, contain cardiac glycosides.",
+        "it": "Tutte le parti, soprattutto il bulbo, contengono glicosidi cardioattivi.",
+        "es": "Todas las partes, sobre todo el bulbo, contienen glucósidos cardíacos."
+      }
+    },
+    "lookalikes": [
+      "Allium vineale"
+    ]
+  },
+  {
+    "scientificName": "Drimia maritima",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the bulb, contain cardiac glycosides that cause fatal heart rhythm disturbances.",
+        "it": "Tutte le parti, soprattutto il bulbo, contengono glicosidi cardioattivi che causano aritmie mortali.",
+        "es": "Todas las partes, sobre todo el bulbo, contienen glucósidos cardíacos que causan arritmias mortales."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Iris pseudacorus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the rhizome, cause severe gastrointestinal irritation and the sap irritates skin.",
+        "it": "Tutte le parti, soprattutto il rizoma, causano una forte irritazione gastrointestinale e la linfa irrita la pelle.",
+        "es": "Todas las partes, sobre todo el rizoma, causan una fuerte irritación gastrointestinal y la savia irrita la piel."
+      }
+    },
+    "lookalikes": [
+      "Typha latifolia"
+    ]
+  },
+  {
+    "scientificName": "Typha latifolia",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Iris pseudacorus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Iris pseudacorus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Iris pseudacorus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Iris pseudacorus"
+    ]
+  },
+  {
+    "scientificName": "Asparagus acutifolius",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The berries are toxic, and the young shoots are confused with those of toxic climbers.",
+        "it": "Le bacche sono tossiche e i giovani germogli sono confondibili con quelli di rampicanti tossici.",
+        "es": "Las bayas son tóxicas y los brotes jóvenes se confunden con los de trepadoras tóxicas."
+      }
+    },
+    "lookalikes": [
+      "Ruscus aculeatus",
+      "Dioscorea communis"
+    ]
+  },
+  {
+    "scientificName": "Ruscus aculeatus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The berries contain saponins causing vomiting and diarrhoea.",
+        "it": "Le bacche contengono saponine che causano vomito e diarrea.",
+        "es": "Las bayas contienen saponinas que causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": [
+      "Asparagus acutifolius"
+    ]
+  },
+  {
+    "scientificName": "Dioscorea communis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Berries and root contain saponins and oxalate crystals causing burning of the mouth, vomiting and skin irritation.",
+        "it": "Bacche e radice contengono saponine e cristalli di ossalato che causano bruciore alla bocca, vomito e irritazione cutanea.",
+        "es": "Las bayas y la raíz contienen saponinas y cristales de oxalato que causan ardor de boca, vómitos e irritación cutánea."
+      }
+    },
+    "lookalikes": [
+      "Asparagus acutifolius",
+      "Humulus lupulus",
+      "Smilax aspera",
+      "Bryonia dioica"
+    ]
+  },
+  {
+    "scientificName": "Bryonia dioica",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially berries and root, contain cucurbitacins causing violent vomiting and diarrhoea that can be fatal.",
+        "it": "Tutte le parti, soprattutto bacche e radice, contengono cucurbitacine che causano vomito e diarrea violenti, potenzialmente mortali.",
+        "es": "Todas las partes, sobre todo las bayas y la raíz, contienen cucurbitacinas que causan vómitos y diarrea violentos, potencialmente mortales."
+      }
+    },
+    "lookalikes": [
+      "Humulus lupulus",
+      "Dioscorea communis"
+    ]
+  },
+  {
+    "scientificName": "Humulus lupulus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Bryonia dioica (deadly), Dioscorea communis (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Bryonia dioica (mortale), Dioscorea communis (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Bryonia dioica (mortal), Dioscorea communis (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Dioscorea communis",
+      "Bryonia dioica"
+    ]
+  },
+  {
+    "scientificName": "Smilax aspera",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The berries are considered toxic.",
+        "it": "Le bacche sono considerate tossiche.",
+        "es": "Las bayas se consideran tóxicas."
+      }
+    },
+    "lookalikes": [
+      "Dioscorea communis"
+    ]
+  },
+  {
+    "scientificName": "Ecballium elaterium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the fruit juice, contain cucurbitacins causing severe irritation of gut, eyes and airways.",
+        "it": "Tutte le parti, soprattutto il succo del frutto, contengono cucurbitacine che irritano gravemente intestino, occhi e vie respiratorie.",
+        "es": "Todas las partes, sobre todo el jugo del fruto, contienen cucurbitacinas que irritan gravemente el intestino, los ojos y las vías respiratorias."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Taxus baccata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts except the red aril, including the seed inside it, contain taxine alkaloids that cause sudden cardiac arrest.",
+        "it": "Tutte le parti tranne l'arillo rosso, compreso il seme al suo interno, contengono alcaloidi (tassine) che causano arresto cardiaco improvviso.",
+        "es": "Todas las partes excepto el arilo rojo, incluida la semilla de su interior, contienen alcaloides (taxinas) que causan parada cardíaca súbita."
+      }
+    },
+    "lookalikes": [
+      "Abies alba",
+      "Picea abies"
+    ]
+  },
+  {
+    "scientificName": "Abies alba",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Taxus baccata (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Taxus baccata (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Taxus baccata (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Taxus baccata"
+    ]
+  },
+  {
+    "scientificName": "Picea abies",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Taxus baccata (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Taxus baccata (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Taxus baccata (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Taxus baccata"
+    ]
+  },
+  {
+    "scientificName": "Larix decidua",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Pinus sylvestris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Pinus pinea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Pinus halepensis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Cupressus sempervirens",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Juniperus communis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Berries and oil irritate the kidneys in quantity, and the plant is confused with the toxic Juniperus sabina.",
+        "it": "Bacche e olio irritano i reni se assunti in quantità e la pianta è confondibile con il tossico Juniperus sabina.",
+        "es": "Las bayas y el aceite irritan los riñones en cantidad y la planta se confunde con el tóxico Juniperus sabina."
+      }
+    },
+    "lookalikes": [
+      "Juniperus sabina"
+    ]
+  },
+  {
+    "scientificName": "Juniperus sabina",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain a toxic essential oil causing severe internal irritation, kidney damage and convulsions.",
+        "it": "Tutte le parti contengono un olio essenziale tossico che causa grave irritazione interna, danni renali e convulsioni.",
+        "es": "Todas las partes contienen un aceite esencial tóxico que causa grave irritación interna, daño renal y convulsiones."
+      }
+    },
+    "lookalikes": [
+      "Juniperus communis"
+    ]
+  },
+  {
+    "scientificName": "Nerium oleander",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain cardiac glycosides that cause fatal heart rhythm disturbances; smoke and sap are also harmful.",
+        "it": "Tutte le parti contengono glicosidi cardioattivi che causano aritmie mortali; anche il fumo e la linfa sono nocivi.",
+        "es": "Todas las partes contienen glucósidos cardíacos que causan arritmias mortales; el humo y la savia también son nocivos."
+      }
+    },
+    "lookalikes": [
+      "Laurus nobilis"
+    ]
+  },
+  {
+    "scientificName": "Prunus laurocerasus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Leaves and seeds contain cyanogenic glycosides that release cyanide.",
+        "it": "Foglie e semi contengono glicosidi cianogenici che liberano cianuro.",
+        "es": "Las hojas y las semillas contienen glucósidos cianogénicos que liberan cianuro."
+      }
+    },
+    "lookalikes": [
+      "Laurus nobilis"
+    ]
+  },
+  {
+    "scientificName": "Laurus nobilis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Nerium oleander (deadly), Prunus laurocerasus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Nerium oleander (mortale), Prunus laurocerasus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Nerium oleander (mortal), Prunus laurocerasus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Nerium oleander",
+      "Prunus laurocerasus"
+    ]
+  },
+  {
+    "scientificName": "Digitalis purpurea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain cardiac glycosides that cause fatal heart rhythm disturbances.",
+        "it": "Tutte le parti contengono glicosidi cardioattivi che causano aritmie mortali.",
+        "es": "Todas las partes contienen glucósidos cardíacos que causan arritmias mortales."
+      }
+    },
+    "lookalikes": [
+      "Borago officinalis",
+      "Symphytum officinale",
+      "Verbascum thapsus"
+    ]
+  },
+  {
+    "scientificName": "Digitalis lutea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain cardiac glycosides that cause fatal heart rhythm disturbances.",
+        "it": "Tutte le parti contengono glicosidi cardioattivi che causano aritmie mortali.",
+        "es": "Todas las partes contienen glucósidos cardíacos que causan arritmias mortales."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Digitalis obscura",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain cardiac glycosides that cause fatal heart rhythm disturbances.",
+        "it": "Tutte le parti contengono glicosidi cardioattivi che causano aritmie mortali.",
+        "es": "Todas las partes contienen glucósidos cardíacos que causan arritmias mortales."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Verbascum thapsus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Digitalis purpurea (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Digitalis purpurea (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Digitalis purpurea (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Digitalis purpurea"
+    ]
+  },
+  {
+    "scientificName": "Borago officinalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains pyrrolizidine alkaloids harmful to the liver with regular use; leaves are confused with deadly Mandragora and Digitalis.",
+        "it": "Contiene alcaloidi pirrolizidinici dannosi per il fegato con l'uso regolare; le foglie sono confondibili con quelle mortali di Mandragora e Digitalis.",
+        "es": "Contiene alcaloides pirrolizidínicos dañinos para el hígado con el uso regular; las hojas se confunden con las mortales de Mandragora y Digitalis."
+      }
+    },
+    "lookalikes": [
+      "Mandragora autumnalis",
+      "Digitalis purpurea",
+      "Symphytum officinale"
+    ]
+  },
+  {
+    "scientificName": "Symphytum officinale",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the root, contain pyrrolizidine alkaloids that damage the liver.",
+        "it": "Tutte le parti, soprattutto la radice, contengono alcaloidi pirrolizidinici che danneggiano il fegato.",
+        "es": "Todas las partes, sobre todo la raíz, contienen alcaloides pirrolizidínicos que dañan el hígado."
+      }
+    },
+    "lookalikes": [
+      "Borago officinalis",
+      "Digitalis purpurea"
+    ]
+  },
+  {
+    "scientificName": "Jacobaea vulgaris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain pyrrolizidine alkaloids that cause cumulative liver damage.",
+        "it": "Tutte le parti contengono alcaloidi pirrolizidinici che causano danni cumulativi al fegato.",
+        "es": "Todas las partes contienen alcaloides pirrolizidínicos que causan daño hepático acumulativo."
+      }
+    },
+    "lookalikes": [
+      "Tanacetum vulgare",
+      "Hypericum perforatum"
+    ]
+  },
+  {
+    "scientificName": "Senecio vulgaris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain pyrrolizidine alkaloids that cause cumulative liver damage.",
+        "it": "Tutte le parti contengono alcaloidi pirrolizidinici che causano danni cumulativi al fegato.",
+        "es": "Todas las partes contienen alcaloides pirrolizidínicos que causan daño hepático acumulativo."
+      }
+    },
+    "lookalikes": [
+      "Diplotaxis tenuifolia",
+      "Sonchus oleraceus"
+    ]
+  },
+  {
+    "scientificName": "Diplotaxis tenuifolia",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Senecio vulgaris (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Senecio vulgaris (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Senecio vulgaris (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Senecio vulgaris"
+    ]
+  },
+  {
+    "scientificName": "Tussilago farfara",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains pyrrolizidine alkaloids harmful to the liver with regular use.",
+        "it": "Contiene alcaloidi pirrolizidinici dannosi per il fegato con l'uso regolare.",
+        "es": "Contiene alcaloides pirrolizidínicos dañinos para el hígado con el uso regular."
+      }
+    },
+    "lookalikes": [
+      "Petasites hybridus"
+    ]
+  },
+  {
+    "scientificName": "Petasites hybridus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain pyrrolizidine alkaloids that damage the liver.",
+        "it": "Tutte le parti contengono alcaloidi pirrolizidinici che danneggiano il fegato.",
+        "es": "Todas las partes contienen alcaloides pirrolizidínicos que dañan el hígado."
+      }
+    },
+    "lookalikes": [
+      "Arctium lappa",
+      "Tussilago farfara"
+    ]
+  },
+  {
+    "scientificName": "Arctium lappa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Petasites hybridus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Petasites hybridus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Petasites hybridus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Petasites hybridus"
+    ]
+  },
+  {
+    "scientificName": "Tanacetum vulgare",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain thujone-rich essential oil that causes convulsions and liver damage.",
+        "it": "Tutte le parti contengono un olio essenziale ricco di tujone che causa convulsioni e danni al fegato.",
+        "es": "Todas las partes contienen un aceite esencial rico en tuyona que causa convulsiones y daño hepático."
+      }
+    },
+    "lookalikes": [
+      "Jacobaea vulgaris"
+    ]
+  },
+  {
+    "scientificName": "Artemisia absinthium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Leaves and flowers contain thujone, which causes convulsions in quantity.",
+        "it": "Foglie e fiori contengono tujone, che in quantità causa convulsioni.",
+        "es": "Las hojas y las flores contienen tuyona, que en cantidad causa convulsiones."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Arnica montana",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts are toxic if swallowed, causing heart and gastrointestinal symptoms, and can cause contact dermatitis.",
+        "it": "Tutte le parti sono tossiche se ingerite, con sintomi cardiaci e gastrointestinali, e possono causare dermatite da contatto.",
+        "es": "Todas las partes son tóxicas si se ingieren, con síntomas cardíacos y gastrointestinales, y pueden causar dermatitis de contacto."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Lactuca virosa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The milky sap contains sedative compounds causing drowsiness, dizziness and heart symptoms.",
+        "it": "Il lattice contiene composti sedativi che causano sonnolenza, vertigini e sintomi cardiaci.",
+        "es": "El látex contiene compuestos sedantes que causan somnolencia, mareo y síntomas cardíacos."
+      }
+    },
+    "lookalikes": [
+      "Sonchus oleraceus"
+    ]
+  },
+  {
+    "scientificName": "Sonchus oleraceus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Senecio vulgaris (toxic), Lactuca virosa (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Senecio vulgaris (tossica), Lactuca virosa (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Senecio vulgaris (tóxica), Lactuca virosa (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Senecio vulgaris",
+      "Lactuca virosa"
+    ]
+  },
+  {
+    "scientificName": "Taraxacum officinale",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Cichorium intybus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Matricaria chamomilla",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Achillea millefolium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Can cause contact dermatitis and allergic reactions and is unsafe in pregnancy.",
+        "it": "Può causare dermatite da contatto e reazioni allergiche ed è pericolosa in gravidanza.",
+        "es": "Puede causar dermatitis de contacto y reacciones alérgicas y es peligrosa en el embarazo."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Helichrysum italicum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Helleborus foetidus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain cardiac glycosides and irritant compounds causing vomiting and heart symptoms.",
+        "it": "Tutte le parti contengono glicosidi cardioattivi e composti irritanti che causano vomito e sintomi cardiaci.",
+        "es": "Todas las partes contienen glucósidos cardíacos y compuestos irritantes que causan vómitos y síntomas cardíacos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Adonis vernalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts contain cardiac glycosides that cause dangerous heart rhythm disturbances.",
+        "it": "Tutte le parti contengono glicosidi cardioattivi che causano pericolose aritmie.",
+        "es": "Todas las partes contienen glucósidos cardíacos que causan arritmias peligrosas."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Actaea spicata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the berries, cause severe gastrointestinal irritation and heart symptoms.",
+        "it": "Tutte le parti, soprattutto le bacche, causano una forte irritazione gastrointestinale e sintomi cardiaci.",
+        "es": "Todas las partes, sobre todo las bayas, causan una fuerte irritación gastrointestinal y síntomas cardíacos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ranunculus acris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All fresh parts contain protoanemonin, which blisters skin and irritates mouth and gut.",
+        "it": "Tutte le parti fresche contengono protoanemonina, che provoca vesciche sulla pelle e irrita bocca e intestino.",
+        "es": "Todas las partes frescas contienen protoanemonina, que provoca ampollas en la piel e irrita la boca y el intestino."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ficaria verna",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains protoanemonin, especially after flowering, which irritates skin, mouth and gut.",
+        "it": "Contiene protoanemonina, soprattutto dopo la fioritura, che irrita pelle, bocca e intestino.",
+        "es": "Contiene protoanemonina, sobre todo tras la floración, que irrita la piel, la boca y el intestino."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Anemonoides nemorosa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All fresh parts contain protoanemonin, which irritates skin, mouth and gut.",
+        "it": "Tutte le parti fresche contengono protoanemonina, che irrita pelle, bocca e intestino.",
+        "es": "Todas las partes frescas contienen protoanemonina, que irrita la piel, la boca y el intestino."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Clematis vitalba",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All fresh parts contain protoanemonin, which blisters skin and irritates mouth and gut.",
+        "it": "Tutte le parti fresche contengono protoanemonina, che provoca vesciche sulla pelle e irrita bocca e intestino.",
+        "es": "Todas las partes frescas contienen protoanemonina, que provoca ampollas en la piel e irrita la boca y el intestino."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Chelidonium majus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts and the orange latex contain alkaloids that irritate skin and gut and can damage the liver.",
+        "it": "Tutte le parti e il lattice arancione contengono alcaloidi che irritano pelle e intestino e possono danneggiare il fegato.",
+        "es": "Todas las partes y el látex anaranjado contienen alcaloides que irritan la piel y el intestino y pueden dañar el hígado."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Papaver rhoeas",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains mildly toxic alkaloids, mainly in the latex and capsules.",
+        "it": "Contiene alcaloidi lievemente tossici, soprattutto nel lattice e nelle capsule.",
+        "es": "Contiene alcaloides levemente tóxicos, sobre todo en el látex y las cápsulas."
+      }
+    },
+    "lookalikes": [
+      "Papaver somniferum"
+    ]
+  },
+  {
+    "scientificName": "Papaver somniferum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The latex and unripe capsules contain opium alkaloids that depress breathing.",
+        "it": "Il lattice e le capsule immature contengono alcaloidi dell'oppio che deprimono la respirazione.",
+        "es": "El látex y las cápsulas inmaduras contienen alcaloides del opio que deprimen la respiración."
+      }
+    },
+    "lookalikes": [
+      "Papaver rhoeas"
+    ]
+  },
+  {
+    "scientificName": "Euphorbia characias",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The milky sap burns skin and eyes and causes severe gastrointestinal irritation.",
+        "it": "Il lattice ustiona pelle e occhi e causa una forte irritazione gastrointestinale.",
+        "es": "El látex quema la piel y los ojos y causa una fuerte irritación gastrointestinal."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Euphorbia lathyris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The milky sap and the caper-like fruits burn skin, eyes and mouth and cause severe gastrointestinal poisoning.",
+        "it": "Il lattice e i frutti simili a capperi ustionano pelle, occhi e bocca e causano una grave intossicazione gastrointestinale.",
+        "es": "El látex y los frutos parecidos a alcaparras queman la piel, los ojos y la boca y causan una intoxicación gastrointestinal grave."
+      }
+    },
+    "lookalikes": [
+      "Capparis spinosa"
+    ]
+  },
+  {
+    "scientificName": "Euphorbia peplus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The milky sap burns skin and eyes and causes gastrointestinal irritation.",
+        "it": "Il lattice ustiona pelle e occhi e causa irritazione gastrointestinale.",
+        "es": "El látex quema la piel y los ojos y causa irritación gastrointestinal."
+      }
+    },
+    "lookalikes": [
+      "Portulaca oleracea"
+    ]
+  },
+  {
+    "scientificName": "Capparis spinosa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Euphorbia lathyris (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Euphorbia lathyris (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Euphorbia lathyris (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Euphorbia lathyris"
+    ]
+  },
+  {
+    "scientificName": "Portulaca oleracea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Euphorbia peplus (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Euphorbia peplus (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Euphorbia peplus (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Euphorbia peplus"
+    ]
+  },
+  {
+    "scientificName": "Mercurialis perennis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts cause vomiting, diarrhoea and kidney and liver irritation.",
+        "it": "Tutte le parti causano vomito, diarrea e irritazione di reni e fegato.",
+        "es": "Todas las partes causan vómitos, diarrea e irritación de riñones e hígado."
+      }
+    },
+    "lookalikes": [
+      "Blitum bonus-henricus"
+    ]
+  },
+  {
+    "scientificName": "Ricinus communis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "The seeds contain ricin, which causes fatal multi-organ failure when chewed.",
+        "it": "I semi contengono ricina, che se masticati causa un'insufficienza multiorgano mortale.",
+        "es": "Las semillas contienen ricina, que si se mastican causa un fallo multiorgánico mortal."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Daphne mezereum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially berries and bark, contain mezerein causing blistering of the mouth, internal bleeding and death.",
+        "it": "Tutte le parti, soprattutto bacche e corteccia, contengono mezereina che causa vesciche in bocca, emorragie interne e la morte.",
+        "es": "Todas las partes, sobre todo las bayas y la corteza, contienen mezereína que causa ampollas en la boca, hemorragias internas y la muerte."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Daphne gnidium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially berries and bark, contain irritant toxins causing blistering and severe gastrointestinal poisoning.",
+        "it": "Tutte le parti, soprattutto bacche e corteccia, contengono tossine irritanti che causano vesciche e una grave intossicazione gastrointestinale.",
+        "es": "Todas las partes, sobre todo las bayas y la corteza, contienen toxinas irritantes que causan ampollas y una intoxicación gastrointestinal grave."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Laburnum anagyroides",
+    "kind": "plant",
+    "toxicity": {
+      "level": "deadly",
+      "note": {
+        "en": "All parts, especially the seeds, contain cytisine causing vomiting, convulsions and potentially fatal poisoning.",
+        "it": "Tutte le parti, soprattutto i semi, contengono citisina che causa vomito, convulsioni e un'intossicazione potenzialmente mortale.",
+        "es": "Todas las partes, sobre todo las semillas, contienen citisina que causa vómitos, convulsiones y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": [
+      "Robinia pseudoacacia"
+    ]
+  },
+  {
+    "scientificName": "Robinia pseudoacacia",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Bark, seeds and leaves contain toxic lectins causing vomiting and weakness.",
+        "it": "Corteccia, semi e foglie contengono lectine tossiche che causano vomito e debolezza.",
+        "es": "La corteza, las semillas y las hojas contienen lectinas tóxicas que causan vómitos y debilidad."
+      }
+    },
+    "lookalikes": [
+      "Laburnum anagyroides"
+    ]
+  },
+  {
+    "scientificName": "Spartium junceum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially seeds and flowers, contain cytisine-type alkaloids affecting heart and breathing.",
+        "it": "Tutte le parti, soprattutto semi e fiori, contengono alcaloidi di tipo citisina che agiscono su cuore e respirazione.",
+        "es": "Todas las partes, sobre todo las semillas y las flores, contienen alcaloides de tipo citisina que afectan al corazón y la respiración."
+      }
+    },
+    "lookalikes": [
+      "Cytisus scoparius"
+    ]
+  },
+  {
+    "scientificName": "Cytisus scoparius",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain sparteine, which affects heart rhythm.",
+        "it": "Tutte le parti contengono sparteina, che altera il ritmo cardiaco.",
+        "es": "Todas las partes contienen esparteína, que altera el ritmo cardíaco."
+      }
+    },
+    "lookalikes": [
+      "Spartium junceum"
+    ]
+  },
+  {
+    "scientificName": "Trifolium pratense",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ceratonia siliqua",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Euonymus europaeus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the fruits, contain cardiac glycosides and alkaloids causing vomiting, diarrhoea and heart symptoms.",
+        "it": "Tutte le parti, soprattutto i frutti, contengono glicosidi cardioattivi e alcaloidi che causano vomito, diarrea e sintomi cardiaci.",
+        "es": "Todas las partes, sobre todo los frutos, contienen glucósidos cardíacos y alcaloides que causan vómitos, diarrea y síntomas cardíacos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ligustrum vulgare",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Berries and leaves cause vomiting, diarrhoea and neurological symptoms.",
+        "it": "Bacche e foglie causano vomito, diarrea e sintomi neurologici.",
+        "es": "Las bayas y las hojas causan vómitos, diarrea y síntomas neurológicos."
+      }
+    },
+    "lookalikes": [
+      "Prunus spinosa"
+    ]
+  },
+  {
+    "scientificName": "Lonicera xylosteum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The berries cause vomiting, diarrhoea and heart symptoms.",
+        "it": "Le bacche causano vomito, diarrea e sintomi cardiaci.",
+        "es": "Las bayas causan vómitos, diarrea y síntomas cardíacos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Hedera helix",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Berries and leaves contain saponins causing vomiting, and the sap causes contact dermatitis.",
+        "it": "Bacche e foglie contengono saponine che causano vomito e la linfa provoca dermatite da contatto.",
+        "es": "Las bayas y las hojas contienen saponinas que causan vómitos y la savia provoca dermatitis de contacto."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ilex aquifolium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The berries and leaves cause vomiting and diarrhoea.",
+        "it": "Le bacche e le foglie causano vomito e diarrea.",
+        "es": "Las bayas y las hojas causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Viscum album",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain viscotoxins causing gastrointestinal and heart symptoms.",
+        "it": "Tutte le parti contengono viscotossine che causano sintomi gastrointestinali e cardiaci.",
+        "es": "Todas las partes contienen viscotoxinas que causan síntomas gastrointestinales y cardíacos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Buxus sempervirens",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain alkaloids causing vomiting, convulsions and respiratory failure.",
+        "it": "Tutte le parti contengono alcaloidi che causano vomito, convulsioni e insufficienza respiratoria.",
+        "es": "Todas las partes contienen alcaloides que causan vómitos, convulsiones e insuficiencia respiratoria."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Rhamnus cathartica",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Berries and bark contain anthraquinones causing violent diarrhoea and cramps.",
+        "it": "Bacche e corteccia contengono antrachinoni che causano diarrea violenta e crampi.",
+        "es": "Las bayas y la corteza contienen antraquinonas que causan diarrea violenta y calambres."
+      }
+    },
+    "lookalikes": [
+      "Prunus spinosa"
+    ]
+  },
+  {
+    "scientificName": "Frangula alnus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Berries and fresh bark contain anthraquinones causing violent diarrhoea and vomiting.",
+        "it": "Bacche e corteccia fresca contengono antrachinoni che causano diarrea violenta e vomito.",
+        "es": "Las bayas y la corteza fresca contienen antraquinonas que causan diarrea violenta y vómitos."
+      }
+    },
+    "lookalikes": [
+      "Prunus padus"
+    ]
+  },
+  {
+    "scientificName": "Sambucus ebulus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, including the berries, cause vomiting and diarrhoea.",
+        "it": "Tutte le parti, bacche comprese, causano vomito e diarrea.",
+        "es": "Todas las partes, incluidas las bayas, causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": [
+      "Sambucus nigra"
+    ]
+  },
+  {
+    "scientificName": "Sambucus nigra",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Raw berries, seeds, leaves and bark contain cyanogenic glycosides causing vomiting; confused with the toxic Sambucus ebulus.",
+        "it": "Bacche crude, semi, foglie e corteccia contengono glicosidi cianogenici che causano vomito; confondibile con il tossico Sambucus ebulus.",
+        "es": "Las bayas crudas, las semillas, las hojas y la corteza contienen glucósidos cianogénicos que causan vómitos; se confunde con el tóxico Sambucus ebulus."
+      }
+    },
+    "lookalikes": [
+      "Sambucus ebulus",
+      "Phytolacca americana"
+    ]
+  },
+  {
+    "scientificName": "Phytolacca americana",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially root and unripe berries, contain saponins and lectins causing severe vomiting and diarrhoea.",
+        "it": "Tutte le parti, soprattutto radice e bacche acerbe, contengono saponine e lectine che causano vomito e diarrea gravi.",
+        "es": "Todas las partes, sobre todo la raíz y las bayas inmaduras, contienen saponinas y lectinas que causan vómitos y diarrea graves."
+      }
+    },
+    "lookalikes": [
+      "Sambucus nigra"
+    ]
+  },
+  {
+    "scientificName": "Viburnum opulus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Raw berries, bark and leaves cause vomiting and diarrhoea.",
+        "it": "Bacche crude, corteccia e foglie causano vomito e diarrea.",
+        "es": "Las bayas crudas, la corteza y las hojas causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Cornus sanguinea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The raw berries cause gastrointestinal upset and the leaf hairs can irritate skin.",
+        "it": "Le bacche crude causano disturbi gastrointestinali e i peli delle foglie possono irritare la pelle.",
+        "es": "Las bayas crudas causan trastornos gastrointestinales y los pelos de las hojas pueden irritar la piel."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Berberis vulgaris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "All parts except the ripe berries contain berberine, which is toxic.",
+        "it": "Tutte le parti tranne le bacche mature contengono berberina, che è tossica.",
+        "es": "Todas las partes excepto las bayas maduras contienen berberina, que es tóxica."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Vaccinium myrtillus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Atropa belladonna (deadly), Solanum nigrum (toxic), Paris quadrifolia (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Atropa belladonna (mortale), Solanum nigrum (tossica), Paris quadrifolia (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Atropa belladonna (mortal), Solanum nigrum (tóxica), Paris quadrifolia (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Atropa belladonna",
+      "Solanum nigrum",
+      "Paris quadrifolia",
+      "Vaccinium uliginosum"
+    ]
+  },
+  {
+    "scientificName": "Vaccinium uliginosum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Berries have been reported to cause dizziness and nausea in quantity, possibly due to a fungal parasite.",
+        "it": "Sono segnalati vertigini e nausea dopo consumo abbondante delle bacche, forse per un fungo parassita.",
+        "es": "Se han descrito mareo y náuseas tras un consumo abundante de las bayas, quizá por un hongo parásito."
+      }
+    },
+    "lookalikes": [
+      "Vaccinium myrtillus"
+    ]
+  },
+  {
+    "scientificName": "Vaccinium vitis-idaea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": [
+      "Arctostaphylos uva-ursi"
+    ]
+  },
+  {
+    "scientificName": "Arctostaphylos uva-ursi",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Leaves contain arbutin and tannins that irritate stomach and liver with prolonged use.",
+        "it": "Le foglie contengono arbutina e tannini che irritano stomaco e fegato con l'uso prolungato.",
+        "es": "Las hojas contienen arbutina y taninos que irritan el estómago y el hígado con el uso prolongado."
+      }
+    },
+    "lookalikes": [
+      "Vaccinium vitis-idaea"
+    ]
+  },
+  {
+    "scientificName": "Rhododendron ferrugineum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, including nectar, contain grayanotoxins causing vomiting, low blood pressure and slow heartbeat.",
+        "it": "Tutte le parti, nettare compreso, contengono graianotossine che causano vomito, ipotensione e rallentamento del battito.",
+        "es": "Todas las partes, incluido el néctar, contienen grayanotoxinas que causan vómitos, hipotensión y pulso lento."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Arbutus unedo",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Aesculus hippocastanum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "Seeds, leaves and bark contain aesculin and saponins causing vomiting and neurological symptoms.",
+        "it": "Semi, foglie e corteccia contengono esculina e saponine che causano vomito e sintomi neurologici.",
+        "es": "Las semillas, las hojas y la corteza contienen esculina y saponinas que causan vómitos y síntomas neurológicos."
+      }
+    },
+    "lookalikes": [
+      "Castanea sativa"
+    ]
+  },
+  {
+    "scientificName": "Castanea sativa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Aesculus hippocastanum (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Aesculus hippocastanum (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Aesculus hippocastanum (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Aesculus hippocastanum"
+    ]
+  },
+  {
+    "scientificName": "Quercus robur",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Raw acorns and young leaves contain tannins that irritate the gut and kidneys.",
+        "it": "Le ghiande crude e le foglie giovani contengono tannini che irritano intestino e reni.",
+        "es": "Las bellotas crudas y las hojas jóvenes contienen taninos que irritan el intestino y los riñones."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Quercus ilex",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Quercus suber",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Fagus sylvatica",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Raw beechnuts contain compounds causing gastrointestinal upset in quantity.",
+        "it": "Le faggiole crude contengono composti che in quantità causano disturbi gastrointestinali.",
+        "es": "Los hayucos crudos contienen compuestos que en cantidad causan trastornos gastrointestinales."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Betula pendula",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Corylus avellana",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Fraxinus excelsior",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Acer pseudoplatanus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Tilia cordata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Juglans regia",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Olea europaea",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Ficus carica",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The milky sap of leaves and unripe fruit irritates skin and causes burns in sunlight.",
+        "it": "Il lattice di foglie e frutti acerbi irrita la pelle e causa ustioni alla luce del sole.",
+        "es": "El látex de las hojas y los frutos inmaduros irrita la piel y causa quemaduras con la luz solar."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Sorbus aucuparia",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Raw berries contain parasorbic acid, which irritates the gut.",
+        "it": "Le bacche crude contengono acido parasorbico, che irrita l'intestino.",
+        "es": "Las bayas crudas contienen ácido parasórbico, que irrita el intestino."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Crataegus monogyna",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Prunus spinosa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Ligustrum vulgare (toxic), Rhamnus cathartica (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Ligustrum vulgare (tossica), Rhamnus cathartica (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Ligustrum vulgare (tóxica), Rhamnus cathartica (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Ligustrum vulgare",
+      "Rhamnus cathartica"
+    ]
+  },
+  {
+    "scientificName": "Prunus avium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Seeds, leaves and bark contain cyanogenic glycosides.",
+        "it": "Semi, foglie e corteccia contengono glicosidi cianogenici.",
+        "es": "Las semillas, las hojas y la corteza contienen glucósidos cianogénicos."
+      }
+    },
+    "lookalikes": [
+      "Atropa belladonna"
+    ]
+  },
+  {
+    "scientificName": "Prunus padus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Seeds, leaves and bark contain cyanogenic glycosides.",
+        "it": "Semi, foglie e corteccia contengono glicosidi cianogenici.",
+        "es": "Las semillas, las hojas y la corteza contienen glucósidos cianogénicos."
+      }
+    },
+    "lookalikes": [
+      "Frangula alnus"
+    ]
+  },
+  {
+    "scientificName": "Rosa canina",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "The hairs around the seeds inside the hips irritate mouth, gut and skin.",
+        "it": "I peli che circondano i semi all'interno dei cinorrodi irritano bocca, intestino e pelle.",
+        "es": "Los pelos que rodean las semillas dentro de los escaramujos irritan la boca, el intestino y la piel."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Rubus ulmifolius",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Rubus idaeus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Fragaria vesca",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Myrtus communis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Pistacia lentiscus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Cistus ladanifer",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Chamaerops humilis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Opuntia ficus-indica",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Fruits and pads carry tiny barbed bristles that lodge in skin, mouth and eyes.",
+        "it": "Frutti e pale portano minuscole setole uncinate che si conficcano in pelle, bocca e occhi.",
+        "es": "Los frutos y las palas tienen diminutas cerdas con gancho que se clavan en la piel, la boca y los ojos."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Salvia rosmarinus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Lavandula stoechas",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Thymus vulgaris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Origanum vulgare",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Mentha pulegium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The essential oil contains pulegone, which causes liver failure.",
+        "it": "L'olio essenziale contiene pulegone, che causa insufficienza epatica.",
+        "es": "El aceite esencial contiene pulegona, que causa fallo hepático."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Melissa officinalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Teucrium chamaedrys",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The aerial parts contain compounds that cause liver damage.",
+        "it": "Le parti aeree contengono composti che causano danni al fegato.",
+        "es": "Las partes aéreas contienen compuestos que causan daño hepático."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Lamium album",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": [
+      "Urtica dioica"
+    ]
+  },
+  {
+    "scientificName": "Urtica dioica",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Stinging hairs cause painful skin irritation.",
+        "it": "I peli urticanti causano una dolorosa irritazione cutanea.",
+        "es": "Los pelos urticantes causan una dolorosa irritación cutánea."
+      }
+    },
+    "lookalikes": [
+      "Lamium album"
+    ]
+  },
+  {
+    "scientificName": "Hypericum perforatum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Causes skin photosensitivity and interacts dangerously with many medicines.",
+        "it": "Causa fotosensibilità cutanea e interagisce pericolosamente con molti farmaci.",
+        "es": "Causa fotosensibilidad cutánea e interactúa peligrosamente con muchos medicamentos."
+      }
+    },
+    "lookalikes": [
+      "Jacobaea vulgaris"
+    ]
+  },
+  {
+    "scientificName": "Malva sylvestris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Oxalis acetosella",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains oxalic acid, which is harmful to the kidneys in quantity.",
+        "it": "Contiene acido ossalico, dannoso per i reni in quantità.",
+        "es": "Contiene ácido oxálico, dañino para los riñones en cantidad."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Rumex acetosa",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains oxalic acid, harmful to the kidneys in quantity; leaves are confused with toxic Arum.",
+        "it": "Contiene acido ossalico, dannoso per i reni in quantità; le foglie sono confondibili con quelle tossiche di Arum.",
+        "es": "Contiene ácido oxálico, dañino para los riñones en cantidad; las hojas se confunden con las tóxicas de Arum."
+      }
+    },
+    "lookalikes": [
+      "Arum maculatum",
+      "Arum italicum"
+    ]
+  },
+  {
+    "scientificName": "Chenopodium album",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains oxalates and saponins and can accumulate nitrates.",
+        "it": "Contiene ossalati e saponine e può accumulare nitrati.",
+        "es": "Contiene oxalatos y saponinas y puede acumular nitratos."
+      }
+    },
+    "lookalikes": [
+      "Datura stramonium"
+    ]
+  },
+  {
+    "scientificName": "Blitum bonus-henricus",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains oxalates and saponins; confused with toxic Arum and Mercurialis.",
+        "it": "Contiene ossalati e saponine; confondibile con Arum e Mercurialis tossici.",
+        "es": "Contiene oxalatos y saponinas; se confunde con Arum y Mercurialis tóxicos."
+      }
+    },
+    "lookalikes": [
+      "Arum italicum",
+      "Mercurialis perennis"
+    ]
+  },
+  {
+    "scientificName": "Beta vulgaris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Mandragora autumnalis (deadly).",
+        "it": "Facilmente confondibile con specie pericolose: Mandragora autumnalis (mortale).",
+        "es": "Se confunde fácilmente con especies peligrosas: Mandragora autumnalis (mortal)."
+      }
+    },
+    "lookalikes": [
+      "Mandragora autumnalis"
+    ]
+  },
+  {
+    "scientificName": "Stellaria media",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Easily confused with dangerous species: Lysimachia arvensis (toxic).",
+        "it": "Facilmente confondibile con specie pericolose: Lysimachia arvensis (tossica).",
+        "es": "Se confunde fácilmente con especies peligrosas: Lysimachia arvensis (tóxica)."
+      }
+    },
+    "lookalikes": [
+      "Lysimachia arvensis"
+    ]
+  },
+  {
+    "scientificName": "Lysimachia arvensis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain saponins and irritants causing gastrointestinal poisoning and dermatitis.",
+        "it": "Tutte le parti contengono saponine e sostanze irritanti che causano un'intossicazione gastrointestinale e dermatite.",
+        "es": "Todas las partes contienen saponinas e irritantes que causan una intoxicación gastrointestinal y dermatitis."
+      }
+    },
+    "lookalikes": [
+      "Stellaria media"
+    ]
+  },
+  {
+    "scientificName": "Silene vulgaris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Saponaria officinalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, especially the root, contain saponins causing vomiting and diarrhoea.",
+        "it": "Tutte le parti, soprattutto la radice, contengono saponine che causano vomito e diarrea.",
+        "es": "Todas las partes, sobre todo la raíz, contienen saponinas que causan vómitos y diarrea."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Capsella bursa-pastoris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Alliaria petiolata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Nasturtium officinale",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Plants gathered raw from the wild can carry liver fluke larvae.",
+        "it": "Le piante raccolte in natura e consumate crude possono veicolare larve di fasciola epatica.",
+        "es": "Las plantas recogidas en la naturaleza y consumidas crudas pueden portar larvas de fasciola hepática."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Plantago lanceolata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Plantago major",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Valeriana officinalis",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Galium odoratum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains coumarin, which causes headache and is harmful to the liver in quantity.",
+        "it": "Contiene cumarina, che causa mal di testa ed è dannosa per il fegato in quantità.",
+        "es": "Contiene cumarina, que causa dolor de cabeza y es dañina para el hígado en cantidad."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Vinca minor",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain vincamine-type alkaloids that lower blood pressure.",
+        "it": "Tutte le parti contengono alcaloidi di tipo vincamina che abbassano la pressione.",
+        "es": "Todas las partes contienen alcaloides de tipo vincamina que bajan la tensión arterial."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Cyclamen hederifolium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The tuber contains saponins causing violent vomiting, diarrhoea and convulsions.",
+        "it": "Il tubero contiene saponine che causano vomito e diarrea violenti e convulsioni.",
+        "es": "El tubérculo contiene saponinas que causan vómitos y diarrea violentos y convulsiones."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Primula veris",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Can cause contact dermatitis in sensitive people.",
+        "it": "Può causare dermatite da contatto nelle persone sensibili.",
+        "es": "Puede causar dermatitis de contacto en personas sensibles."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Viola odorata",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Chamaenerion angustifolium",
+    "kind": "plant",
+    "toxicity": {
+      "level": "none_recorded",
+      "note": null
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Filipendula ulmaria",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains salicylates, a risk for people sensitive to aspirin.",
+        "it": "Contiene salicilati, un rischio per chi è sensibile all'aspirina.",
+        "es": "Contiene salicilatos, un riesgo para las personas sensibles a la aspirina."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Equisetum arvense",
+    "kind": "plant",
+    "toxicity": {
+      "level": "caution",
+      "note": {
+        "en": "Contains thiaminase and is confused with the toxic Equisetum palustre.",
+        "it": "Contiene tiaminasi ed è confondibile con il tossico Equisetum palustre.",
+        "es": "Contiene tiaminasa y se confunde con el tóxico Equisetum palustre."
+      }
+    },
+    "lookalikes": [
+      "Equisetum palustre"
+    ]
+  },
+  {
+    "scientificName": "Equisetum palustre",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts contain the alkaloid palustrine and thiaminase.",
+        "it": "Tutte le parti contengono l'alcaloide palustrina e tiaminasi.",
+        "es": "Todas las partes contienen el alcaloide palustrina y tiaminasa."
+      }
+    },
+    "lookalikes": [
+      "Equisetum arvense"
+    ]
+  },
+  {
+    "scientificName": "Pteridium aquilinum",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "All parts, including young fronds and spores, contain the carcinogen ptaquiloside and thiaminase.",
+        "it": "Tutte le parti, compresi i giovani germogli e le spore, contengono il cancerogeno ptaquiloside e tiaminasi.",
+        "es": "Todas las partes, incluidos los brotes jóvenes y las esporas, contienen el carcinógeno ptaquilósido y tiaminasa."
+      }
+    },
+    "lookalikes": []
+  },
+  {
+    "scientificName": "Dryopteris filix-mas",
+    "kind": "plant",
+    "toxicity": {
+      "level": "toxic",
+      "note": {
+        "en": "The rhizome and frond bases contain phloroglucinols causing blindness and potentially fatal poisoning.",
+        "it": "Il rizoma e la base delle fronde contengono floroglucinoli che causano cecità e un'intossicazione potenzialmente mortale.",
+        "es": "El rizoma y la base de las frondes contienen floroglucinoles que causan ceguera y una intoxicación potencialmente mortal."
+      }
+    },
+    "lookalikes": []
+  }
+]

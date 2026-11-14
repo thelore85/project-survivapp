@@ -1,0 +1,793 @@
+{
+  "generatedAt": "2026-11-14T00:54:14.279Z",
+  "species": 325,
+  "gaps": {
+    "noGbif": [],
+    "gbifSynonym": [
+      "Pholiotina rugosa -> Conocybe rugosa (SYNONYM)",
+      "Cortinarius splendens -> Calonarius splendens (SYNONYM)",
+      "Mandragora autumnalis -> Mandragora officinarum (SYNONYM)",
+      "Anemonoides nemorosa -> Anemone nemorosa (SYNONYM)"
+    ],
+    "gbifFuzzy": [],
+    "noPhoto": [
+      "Paralepistopsis amoenolens",
+      "Ramaria formosa",
+      "Amanita vaginata (no iNaturalist taxon)"
+    ],
+    "noDescription": [],
+    "descriptionViaSynonym": [
+      "Pseudosperma rimosum -> Inocybe rimosa",
+      "Neoboletus erythropus -> Neoboletus luridiformis"
+    ],
+    "namesRejectedByLicense": 1420,
+    "errors": []
+  },
+  "vernacularSources": [
+    {
+      "source": "Vernacular names of Iberian fungi in Spain",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Catalogue of Life",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Checklist of Vermont Fungi",
+      "license": null,
+      "rawLicense": "http://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    {
+      "source": "TAXREF",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Martha's Vineyard species checklist",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "United Kingdom Species Inventory (UKSI)",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Global Register of Introduced and Invasive Species - United States (Contiguous) (ver.2.0, 2022)",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Checklist of Vermont Species",
+      "license": null,
+      "rawLicense": "http://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    {
+      "source": "The IUCN Red List of Threatened Species",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "World Register of Marine Species",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "The Swedish Red List 2020",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Dyntaxa. Svensk taxonomisk databas",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Ranunculaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Ranunculaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Cichorieae Systematics Portal",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "DAISIE - Inventory of alien invasive species in Europe",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Asteraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Asteraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Red List Vascular Plants (2016, Switzerland) - Rote Liste Gefässpflanzen (2016, Schweiz)",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "GRIN Taxonomy",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Database of Vascular Plants of Canada (VASCAN)",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Integrated Taxonomic Information System (ITIS)",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Rosaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Checklist of Vascular Plants in Korea",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Rosaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Checklist of the Vascular Plants (Tracheophyta) of Vermont, USA",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Solanaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Solanaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Belgian Species List",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Global Register of Introduced and Invasive Species - Hawaii, United States (ver.2.0, 2022)",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Checklist Dutch Caribbean Species Register",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "Global Register of Introduced and Invasive Species - Alaska, United States (ver.2.0, 2022)",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Apiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Apiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora e Funga do Brasil - Lista Oficial",
+      "license": "CC BY 4.0",
+      "rawLicense": "http://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "source": "List of Invasive Alien Species of Union concern",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Invasive Alien Species in Belgium - HARMONIA database",
+      "license": null,
+      "rawLicense": "unspecified"
+    },
+    {
+      "source": "RIPARIAS target species list",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Colchicaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Colchicaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Melanthiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Melanthiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Gentianaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Gentianaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Asparagaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Asparagaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Amaryllidaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Amaryllidaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Araceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Araceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Iridaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Iridaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Typhaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Typhaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Cucurbitaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Cucurbitaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Cannabaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Cannabaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Taxaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Taxaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Pinaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Pinaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Risk assessment of alien taxa in Sweden 2024",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Risk assessment of alien taxa in Sweden 2018",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Cupressaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Cupressaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Lauraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Lauraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Plantaginaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Plantaginaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Boraginaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Boraginaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Scrophulariaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Scrophulariaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Brassicaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Brassicaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Papaveraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Papaveraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Euphorbiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Euphorbiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Capparaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Portulacaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Portulacaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Listado de especies de plantas usadas por la avifauna en sitios priorizados de la ciudad de Barranquilla",
+      "license": null,
+      "rawLicense": "http://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Thymelaeaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Thymelaeaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Fabaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Fabaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Celastraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Celastraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Oleaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Oleaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Caprifoliaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Caprifoliaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Araliaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Araliaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Aquifoliaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Aquifoliaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Buxaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Buxaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Santalaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Santalaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Rhamnaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Rhamnaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Adoxaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Adoxaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Phytolaccaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Phytolaccaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Cornaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Cornaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Berberidaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Berberidaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Ericaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Ericaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Sapindaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Sapindaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Fagaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Fagaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Betulaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Betulaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "The Swedish Red List 2025",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Malvaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Malvaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Juglandaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Juglandaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Moraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Moraceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Lamiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Lamiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Urticaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Urticaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Oxalidaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Oxalidaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Polygonaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Polygonaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Amaranthaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Amaranthaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Caryophyllaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Caryophyllaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Rubiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Rubiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Apocynaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Primulaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Apocynaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Primulaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Violaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Violaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Equisetaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Equisetaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Dryopteridaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Flora Helvetica - Dennstaedtiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Dennstaedtiaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    },
+    {
+      "source": "Info Flora Schweiz - Dryopteridaceae",
+      "license": "CC0 1.0",
+      "rawLicense": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+    }
+  ]
+}
