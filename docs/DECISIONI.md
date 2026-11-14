@@ -60,6 +60,37 @@ Scelte prese durante lo sviluppo autonomo. Ogni voce: cosa, perché, come cambia
 - **Rilevamento dei conflitti tra fonti affidato a un marcatore del modello** (`[[CONFLICT]]`).
   - Perché: non esiste un controllo deterministico affidabile. Limite noto: con il modello finto scatta solo nei test.
 
+## App e piattaforme
+
+- **Expo SDK 57, non 58**.
+  - Perché: NativeWind 4.2.7, l'ultima versione stabile, dichiara il supporto fino all'SDK 57.
+  - Per cambiare: aggiornare quando NativeWind dichiara il supporto all'SDK successivo; rilanciare smoke test.
+- **Componenti scritti a mano nello stile di React Native Reusables** (`cva`, `cn`, token di tema), non generati con il suo strumento a riga di comando.
+  - Perché: lo strumento è interattivo e non adatto a una sessione autonoma; il risultato segue le stesse convenzioni.
+  - Per cambiare: sostituire i componenti in `apps/mobile/src/components/ui` con quelli generati.
+- **Nessuna libreria di navigazione**: quattro schermate scelte da uno stato in Zustand.
+  - Perché: è la soluzione più semplice per quattro schermate senza indirizzi.
+  - Per cambiare: introdurre `expo-router` quando servono collegamenti diretti o il tasto indietro di Android.
+- **Uno strato `platform` con due implementazioni** (browser e Android) dietro la stessa interfaccia.
+  - Perché: database, pacchetto, modelli ed estrazione del testo sono le sole parti che cambiano.
+- **Nel browser SQLite è la build WebAssembly ufficiale, caricata a runtime** e non dal bundle.
+  - Perché: la versione web di `expo-sqlite` non ha la ricerca full-text; la build ufficiale sì, ma usa `import.meta`, che il bundler non gestisce.
+- **Nel browser il database utente vive in memoria e viene copiato in IndexedDB** poco dopo ogni scrittura.
+  - Perché: dà persistenza alla demo con poche righe. Limite: una chiusura entro mezzo secondo dall'ultima scrittura la perde.
+- **Sul telefono il pacchetto base si installa scegliendo una cartella**, che l'app copia nel proprio spazio privato.
+  - Perché: i modelli pesano alcuni GB e non possono stare dentro l'app installabile.
+- **Gli indici del pacchetto si possono ricalcolare sul telefono** con i modelli installati.
+  - Perché: garantisce che pacchetto e dispositivo usino lo stesso modello senza dover far girare i modelli reali sul PC. Costo: alcuni minuti alla prima installazione.
+  - Per cambiare: calcolare gli embedding reali nel costruttore di pacchetti, passando a `buildPackage` un `textEmbedder` e un `vision` reali.
+- **Sul telefono l'importazione di PDF non è implementata**: solo file di testo.
+  - Perché: pdf.js non gira sul motore JavaScript di React Native; serve un modulo nativo ancora da scegliere.
+- **Le soglie di pertinenza dei modelli reali stanno nel manifest** (`relevanceThreshold`).
+  - Perché: vanno tarate con i benchmark e non devono richiedere una nuova build dell'app.
+- **Il modello finto di embedding decide la pertinenza solo sulle parole**, non sul coseno, e traduce la domanda con un piccolo glossario.
+  - Perché: il coseno di un hash non distingue un vero riscontro da una collisione. Riguarda solo la demo.
+- **Smoke test con `playwright-core` e il browser già installato** (Edge o Chrome).
+  - Perché: evita di scaricare un browser dedicato.
+
 ## Decisioni aperte del PRD
 
 - **Riconoscimento botanico**: solo embedding visivi, nessun classificatore dedicato.
