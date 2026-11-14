@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Survivapp",
+    "slug": "survivapp",
+    "version": "0.1.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "it.survivapp.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Serve per scegliere la foto di una pianta o di un fungo.",
+          "cameraPermission": "Serve per fotografare una pianta o un fungo.",
+          "microphonePermission": false
+        }
+      ],
+      "llama.rn",
+      "onnxruntime-react-native"
+    ]
+  }
+}

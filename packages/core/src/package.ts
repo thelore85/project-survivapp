@@ -6,6 +6,8 @@ export interface ModelEntry {
   /** File dei pesi dentro la cartella `models/` del pacchetto; null se il modello non è incluso. */
   file: string | null;
   sizeMb?: number;
+  /** Soglia di pertinenza del coseno per questo modello: si tara nel pacchetto, senza toccare il codice. */
+  relevanceThreshold?: number;
 }
 
 /** Contenuto di `manifest.json`, il file che descrive un pacchetto base. */
@@ -37,6 +39,7 @@ function parseModel(value: unknown, name: string): ModelEntry | null {
     id: value.id,
     file: typeof value.file === 'string' ? value.file : null,
     ...(typeof value.sizeMb === 'number' ? { sizeMb: value.sizeMb } : {}),
+    ...(typeof value.relevanceThreshold === 'number' ? { relevanceThreshold: value.relevanceThreshold } : {}),
   };
 }
 

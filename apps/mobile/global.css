@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 60 9% 98%;
+  --foreground: 150 10% 12%;
+  --card: 0 0% 100%;
+  --muted: 60 6% 93%;
+  --muted-foreground: 150 5% 40%;
+  --border: 60 6% 86%;
+  --primary: 152 45% 28%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 152 30% 92%;
+  --danger: 0 70% 42%;
+  --danger-soft: 0 80% 95%;
+  --warning: 32 85% 34%;
+  --warning-soft: 42 95% 91%;
+  --info: 212 45% 38%;
+  --info-soft: 212 60% 95%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 150 8% 9%;
+    --foreground: 60 8% 92%;
+    --card: 150 7% 13%;
+    --muted: 150 6% 18%;
+    --muted-foreground: 60 5% 65%;
+    --border: 150 6% 24%;
+    --primary: 152 45% 48%;
+    --primary-foreground: 150 10% 8%;
+    --accent: 152 25% 20%;
+    --danger: 0 75% 68%;
+    --danger-soft: 0 45% 20%;
+    --warning: 38 90% 62%;
+    --warning-soft: 36 50% 18%;
+    --info: 212 70% 72%;
+    --info-soft: 212 40% 20%;
+  }
+}
