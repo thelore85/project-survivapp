@@ -96,11 +96,11 @@ export class FakeTextEmbedder extends FakeModel implements TextEmbedder {
   // quindi con questo modello la pertinenza si decide solo sulle parole.
   readonly relevanceThreshold = 1.1;
 
-  /** Sostituisce le parole italiane e spagnole del glossario con l'equivalente inglese. */
-  rewriteQuery(query: string): string {
-    return contentTokens(query)
-      .map((token) => DEMO_GLOSSARY[token] ?? token)
-      .join(' ');
+  /** La domanda com'è, più la versione con le parole del glossario tradotte in inglese. */
+  queryVariants(query: string): string[] {
+    const tokens = contentTokens(query);
+    const translated = tokens.map((token) => DEMO_GLOSSARY[token] ?? token);
+    return translated.some((token, index) => token !== tokens[index]) ? [query, translated.join(' ')] : [query];
   }
 
   async embed(texts: string[]): Promise<Float32Array[]> {

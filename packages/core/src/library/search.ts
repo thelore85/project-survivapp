@@ -27,7 +27,7 @@ export async function hybridSearch(
 ): Promise<HybridSearchResult> {
   const limit = options.limit ?? 6;
   const pool = limit * 3;
-  const wordQuery = embedder?.rewriteQuery?.(query) ?? query;
+  const wordQuery = (embedder?.queryVariants?.(query) ?? [query]).join(' ');
   const merged = new Map<string, Passage>();
   let semanticUsed = false;
   let queryVector: Float32Array | null = null;
@@ -67,11 +67,12 @@ export async function hybridSearch(
  */
 export function isRelevant(passage: Passage, query: string, embedder: TextEmbedder | null): boolean {
   if (embedder && passage.cosine !== null && passage.cosine >= embedder.relevanceThreshold) return true;
-  const wordQuery = embedder?.rewriteQuery?.(query) ?? query;
-  const terms = new Set(contentTokens(wordQuery)).size;
-  if (terms === 0) return false;
   // Ricalcolata sulla domanda: la ricerca può aver usato un testo più ampio (domanda + contesto).
-  const coverage = termCoverage(wordQuery, passage.text);
-  const matched = Math.round(coverage * terms);
-  return terms <= 2 ? matched === terms : matched >= 2 && coverage >= 0.5;
+  return (embedder?.queryVariants?.(query) ?? [query]).some((variant) => {
+    const terms = new Set(contentTokens(variant)).size;
+    if (terms === 0) return false;
+    const coverage = termCoverage(variant, passage.text);
+    const matched = Math.round(coverage * terms);
+    return terms <= 2 ? matched === terms : matched >= 2 && coverage >= 0.5;
+  });
 }

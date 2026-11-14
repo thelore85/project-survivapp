@@ -29,6 +29,17 @@ describe('risposta survival ancorata alle fonti', () => {
     expect(answer.citations[0]?.page).toBe(40);
   });
 
+  it('trova anche un documento nella stessa lingua della domanda', async () => {
+    const { deps, store, embedder } = await setup();
+    await store.ingest(
+      { id: 'note', title: 'Appunti bivacco' },
+      [{ page: null, text: 'Per un bivacco invernale scava una truna nella neve e isola il fondo con rami di abete.' }],
+      embedder,
+    );
+    const answer = await answerSurvival({ ...deps, llm: null }, { question: 'come preparo un bivacco nella neve?', lang: 'it' });
+    expect(answer.citations.map((citation) => citation.documentTitle)).toContain('Appunti bivacco');
+  });
+
   it('dichiara il limite quando le fonti non bastano, senza chiamare il modello', async () => {
     const { deps, llm } = await setup();
     const answer = await answerSurvival(deps, { question: 'How do I repair a satellite antenna?', lang: 'it' });

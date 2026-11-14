@@ -33,10 +33,10 @@ export interface TextEmbedder extends ManagedModel {
   readonly relevanceThreshold: number;
   embed(texts: string[], kind: 'query' | 'document'): Promise<Float32Array[]>;
   /**
-   * Riscrive la domanda prima della ricerca per parole. Serve solo ai modelli che non
-   * capiscono le lingue: un embedder multilingua reale non lo implementa.
+   * Formulazioni alternative della domanda per la ricerca per parole (es. la traduzione).
+   * Serve solo ai modelli che non capiscono le lingue: un embedder multilingua reale non lo implementa.
    */
-  rewriteQuery?(query: string): string;
+  queryVariants?(query: string): string[];
 }
 
 export interface VisionEmbedder extends ManagedModel {
