@@ -1,8 +1,8 @@
 import { getMeta, setMeta } from '../db/schema';
 import { blobToVector, getRow, transaction, vectorToBlob, type SqlDb } from '../db/sql';
-import { dot } from '../runtime/types';
+import { dot, type VisionEmbedder } from '../runtime/types';
 import { buildFtsQuery, normalizeText } from '../text/tokens';
-import type { Lang, SpeciesImage, SpeciesRecord, SpeciesSummary } from '../types';
+import type { Lang, RgbaImage, SpeciesImage, SpeciesRecord, SpeciesSummary } from '../types';
 
 const VISION_MODEL_KEY = 'vision_embedding_model';
 
@@ -69,6 +69,34 @@ export class Catalogue {
 
   async setVisionModel(id: string): Promise<void> {
     await setMeta(this.db, VISION_MODEL_KEY, id);
+  }
+
+  /**
+   * Ricalcola gli embedding delle immagini con il modello visivo attivo: serve quando il pacchetto
+   * è stato costruito con un modello diverso da quello installato sul dispositivo.
+   */
+  async rebuildImageEmbeddings(
+    vision: VisionEmbedder,
+    loadImage: (file: string) => Promise<RgbaImage>,
+    onProgress?: (done: number, total: number) => void,
+  ): Promise<{ embedded: number; failed: number }> {
+    const rows = await this.db.all<{ id: number; file: string }>('SELECT id, file FROM species_images ORDER BY id');
+    let embedded = 0;
+    let failed = 0;
+    for (const [index, row] of rows.entries()) {
+      try {
+        const vector = await vision.embedImage(await loadImage(row.file));
+        await this.db.run('UPDATE species_images SET embedding = ? WHERE id = ?', [vectorToBlob(vector), row.id]);
+        embedded++;
+      } catch {
+        await this.db.run('UPDATE species_images SET embedding = NULL WHERE id = ?', [row.id]);
+        failed++;
+      }
+      onProgress?.(index + 1, rows.length);
+    }
+    await this.setVisionModel(vision.id);
+    this.imageVectors = null;
+    return { embedded, failed };
   }
 
   async visionModel(): Promise<string | null> {

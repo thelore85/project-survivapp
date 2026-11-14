@@ -135,6 +135,31 @@ describe('flusso botanico da fotografia', () => {
   });
 });
 
+describe('ricostruzione degli indici visivi', () => {
+  it('ricalcola gli embedding con il modello attivo e riabilita il confronto', async () => {
+    const deps = await setup();
+    await deps.catalogue.setVisionModel('modello-del-pacchetto');
+    expect((await identifyFromPhoto(deps, { image: texturedImage(RED, 256, 3), lang: 'it' })).status).toBe('unavailable');
+
+    const progress: number[] = [];
+    const result = await deps.catalogue.rebuildImageEmbeddings(
+      deps.vision,
+      async (file) => {
+        if (file.includes('urtica')) throw new Error('file mancante');
+        return texturedImage(file.includes('muscaria') ? RED : GREEN, 256, 7);
+      },
+      (done) => progress.push(done),
+    );
+    expect(result).toEqual({ embedded: 2, failed: 1 });
+    expect(progress).toEqual([1, 2, 3]);
+
+    const answer = await identifyFromPhoto(deps, { image: texturedImage(RED, 256, 3), lang: 'it' });
+    expect(answer.status).toBe('candidates');
+    expect(answer.candidates[0]?.id).toBe('amanita-muscaria');
+    expect(answer.candidates.map((candidate) => candidate.id)).not.toContain('urtica-dioica');
+  });
+});
+
 describe('domande testuali sulle specie', () => {
   it('trova la scheda dal nome comune in un’altra lingua', async () => {
     const deps = await setup();

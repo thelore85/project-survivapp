@@ -139,6 +139,17 @@ const STRINGS = {
     es: 'Elige la carpeta del paquete copiada al teléfono: debe contener manifest.json.',
   },
   'settings.package.installed': { it: 'Pacchetto {id} {version} installato.', en: 'Package {id} {version} installed.', es: 'Paquete {id} {version} instalado.' },
+  'settings.package.reindex': {
+    it: 'Ricalcola gli indici con i modelli del dispositivo',
+    en: 'Rebuild the indexes with the device models',
+    es: 'Recalcular los índices con los modelos del dispositivo',
+  },
+  'settings.package.reindex.help': {
+    it: 'Il pacchetto è stato indicizzato con modelli diversi da quelli installati: finché non ricalcoli, ricerca semantica e confronto visivo restano spenti. Può richiedere diversi minuti.',
+    en: 'The package was indexed with models other than the installed ones: until you rebuild, semantic search and visual comparison stay off. It can take several minutes.',
+    es: 'El paquete se indexó con modelos distintos de los instalados: hasta que recalcules, la búsqueda semántica y la comparación visual permanecen apagadas. Puede tardar varios minutos.',
+  },
+  'settings.package.reindexing': { it: 'Ricalcolo: {done} di {total}', en: 'Rebuilding: {done} of {total}', es: 'Recalculando: {done} de {total}' },
   'settings.data': { it: 'Dati personali', en: 'Personal data', es: 'Datos personales' },
   'settings.clear_history': { it: 'Cancella tutta la cronologia', en: 'Delete all history', es: 'Borrar todo el historial' },
   'settings.rebuild': { it: 'Ricostruisci l’indice dei miei file', en: 'Rebuild the index of my files', es: 'Reconstruir el índice de mis archivos' },

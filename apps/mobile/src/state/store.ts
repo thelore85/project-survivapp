@@ -63,6 +63,7 @@ interface AppState {
   setQuota(quotaMb: number): Promise<void>;
   showSpecies(id: string | null): Promise<void>;
   installPackage(): Promise<void>;
+  reindexPackage(): Promise<void>;
 }
 
 function newId(): string {
@@ -300,6 +301,22 @@ export const useApp = create<AppState>((set, get) => ({
         screen: 'settings',
         settingsFeedback: { kind: 'ok', text: tr(lang, 'settings.package.installed', { id: manifest.id, version: manifest.version }) },
       });
+    } catch (error) {
+      set({ settingsFeedback: { kind: 'error', text: message(error) } });
+    }
+  },
+
+  async reindexPackage() {
+    const { services, lang } = get();
+    const reindex = services?.platform.reindexPackage;
+    if (!reindex) return;
+    try {
+      await reindex((done, total) =>
+        set({ settingsFeedback: { kind: 'ok', text: tr(lang, 'settings.package.reindexing', { done, total }) } }),
+      );
+      set({ status: 'loading', services: null });
+      await get().init();
+      set({ screen: 'settings' });
     } catch (error) {
       set({ settingsFeedback: { kind: 'error', text: message(error) } });
     }

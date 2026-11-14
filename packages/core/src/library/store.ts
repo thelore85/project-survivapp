@@ -197,7 +197,7 @@ export class LibraryStore {
   }
 
   /** Ricalcola gli embedding di tutti i chunk: serve quando cambia il modello o l'indice va ricostruito. */
-  async rebuildEmbeddings(embedder: TextEmbedder): Promise<number> {
+  async rebuildEmbeddings(embedder: TextEmbedder, onProgress?: (done: number, total: number) => void): Promise<number> {
     const rows = await this.db.all<{ id: number; text: string }>('SELECT id, text FROM chunks ORDER BY id');
     for (let start = 0; start < rows.length; start += 32) {
       const batch = rows.slice(start, start + 32);
@@ -211,6 +211,7 @@ export class LibraryStore {
           if (vector) await this.db.run('UPDATE chunks SET embedding = ? WHERE id = ?', [vectorToBlob(vector), row.id]);
         }
       });
+      onProgress?.(Math.min(start + 32, rows.length), rows.length);
     }
     await setMeta(this.db, EMBEDDING_MODEL_KEY, embedder.id);
     await this.db.run("UPDATE documents SET index_status = 'indexed'");

@@ -32,6 +32,7 @@ export function SettingsScreen() {
   const clearHistory = useApp((state) => state.clearHistory);
   const rebuildIndex = useApp((state) => state.rebuildIndex);
   const installPackage = useApp((state) => state.installPackage);
+  const reindexPackage = useApp((state) => state.reindexPackage);
   const iconColor = useIconColor();
   if (!services || !config) return null;
   const manifest = services.platform.manifest;
@@ -120,6 +121,14 @@ export function SettingsScreen() {
             value={manifest ? `${manifest.version} · ${manifest.createdAt.slice(0, 10)}` : '—'}
           />
           {manifest ? <Text variant="muted" className="pt-2">{tr(lang, 'library.package.stats', manifest.stats)}</Text> : null}
+          {services.platform.reindexPackage ? (
+            <View accessibilityRole="alert" className="gap-2 pt-3">
+              <Text variant="small" className="text-warning">
+                {tr(lang, 'settings.package.reindex.help')}
+              </Text>
+              <Button label={tr(lang, 'settings.package.reindex')} onPress={() => void reindexPackage()} />
+            </View>
+          ) : null}
           {services.platform.installPackage ? (
             <View className="gap-2 pt-3">
               <Text variant="muted">{tr(lang, 'settings.package.install.help')}</Text>

@@ -1,7 +1,9 @@
 import {
+  Catalogue,
   FakeLlm,
   FakeTextEmbedder,
   FakeVisionEmbedder,
+  LibraryStore,
   migrate,
   parseManifest,
   plainTextExtractor,
@@ -16,6 +18,7 @@ import {
 import * as Device from 'expo-device';
 import { Directory, File, Paths } from 'expo-file-system';
 import { openDatabaseAsync, type SQLiteDatabase } from 'expo-sqlite';
+import { decodeImage } from './images';
 import { LlamaLlm, LlamaTextEmbedder, OnnxVisionEmbedder } from './runtimes.native';
 import type { Platform } from './types';
 
@@ -132,6 +135,7 @@ export async function initPlatform(): Promise<Platform> {
 
   let manifest: PackageManifest | null = null;
   let content: SqlDb | null = null;
+  let contentDatabase: SQLiteDatabase | null = null;
   try {
     const manifestFile = new File(packageDir, 'manifest.json');
     if (!manifestFile.exists) throw new Error('not_installed');
@@ -139,6 +143,7 @@ export async function initPlatform(): Promise<Platform> {
     const database = await openDatabaseAsync(manifest.content.database, {}, toPath(packageDir.uri));
     // Il pacchetto base non si modifica: qualsiasi scrittura su questo database fallisce.
     await database.execAsync('PRAGMA query_only = ON');
+    contentDatabase = database;
     content = new ExpoSqlDb(database);
   } catch (error) {
     manifest = null;
@@ -150,6 +155,30 @@ export async function initPlatform(): Promise<Platform> {
 
   const { models, demo } = buildModels(manifest, packageDir, warnings);
   const imagesDir = manifest?.content.imagesDir ?? 'images';
+  const imageFile = (file: string): File => new File(packageDir, file.startsWith(`${imagesDir}/`) ? file : `${imagesDir}/${file}`);
+
+  // Il pacchetto demo è indicizzato con i modelli finti: con modelli reali gli indici vanno ricalcolati sul telefono.
+  let reindexPackage: Platform['reindexPackage'];
+  const textEmbedder = models.textEmbedder;
+  const vision = models.vision;
+  if (content && contentDatabase && textEmbedder && vision) {
+    const library = new LibraryStore('base', content);
+    const catalogue = new Catalogue(content);
+    const stale = (await library.embeddingModel()) !== textEmbedder.id || (await catalogue.visionModel()) !== vision.id;
+    if (stale) {
+      warnings.push('package_index_stale');
+      const database = contentDatabase;
+      reindexPackage = async (onProgress) => {
+        await database.execAsync('PRAGMA query_only = OFF');
+        try {
+          await library.rebuildEmbeddings(textEmbedder, onProgress);
+          await catalogue.rebuildImageEmbeddings(vision, (file) => decodeImage(imageFile(file).uri), onProgress);
+        } finally {
+          await database.execAsync('PRAGMA query_only = ON');
+        }
+      };
+    }
+  }
 
   return {
     demo,
@@ -158,7 +187,7 @@ export async function initPlatform(): Promise<Platform> {
     manifest,
     models,
     extractors: { txt: plainTextExtractor, md: plainTextExtractor, pdf: unsupportedPdf },
-    imageUri: (file) => new File(packageDir, file.startsWith(`${imagesDir}/`) ? file : `${imagesDir}/${file}`).uri,
+    imageUri: (file) => imageFile(file).uri,
     async capabilities() {
       return {
         totalRamMb: Math.round((Device.totalMemory ?? 0) / 1024 / 1024),
@@ -168,6 +197,7 @@ export async function initPlatform(): Promise<Platform> {
       };
     },
     installPackage,
+    reindexPackage,
     warnings,
   };
 }

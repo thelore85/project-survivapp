@@ -18,6 +18,11 @@ export interface Platform {
   capabilities(): Promise<DeviceCapabilities>;
   /** Installa o aggiorna il pacchetto base da una cartella scelta dall'utente; assente dove non serve. */
   installPackage?(): Promise<PackageManifest>;
+  /**
+   * Ricalcola gli indici del pacchetto con i modelli del dispositivo. Presente solo quando il pacchetto
+   * è stato indicizzato con modelli diversi da quelli installati.
+   */
+  reindexPackage?(onProgress: (done: number, total: number) => void): Promise<void>;
   /** Messaggi su ciò che non è stato possibile inizializzare. */
   warnings: string[];
 }
