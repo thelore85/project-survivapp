@@ -10,10 +10,10 @@ Ogni voce ha il comando che la dimostra, lanciato dalla root del progetto, e l'e
 
 | Cosa | Comando | Esito |
 |---|---|---|
-| Tipi, lint e test | `npm run check` | nessun errore; 166 test del core e 4 del costruttore di pacchetti, tutti verdi |
+| Tipi, lint e test | `npm run check` | nessun errore; 168 test del core e 4 del costruttore di pacchetti, tutti verdi |
 | Pacchetto demo dai dati reali | `npm run build:package` | 325 specie, 9 documenti, 6.019 passaggi, `content.db` da 16,4 MB |
 | Catalogo delle specie | `node tools/catalogue/validate-catalogue.mjs` | `OK: nessun errore`; 325 specie, 322 con fotografia |
-| App nel browser, in modalità demo | `npm run web`, poi `npm run smoke` | 10 passi su 10 `ok`, nessun errore nella console del browser |
+| App nel browser, in modalità demo | `npm run web`, poi `npm run smoke` | 12 passi su 12 `ok`, nessun errore nella console del browser |
 | Bundle JavaScript per Android | in `apps/mobile`: `npx expo export --platform android` | bundle Hermes da 5,9 MB creato |
 | Progetto Android nativo | in `apps/mobile`: `npx expo prebuild --platform android` | cartella `android/` generata, plugin applicati |
 
@@ -102,6 +102,6 @@ Limiti dei dati:
 ## 5. Ambiente
 
 - `npm install` va lanciato da PowerShell: da Git Bash l'installazione di `llama.rn` fallisce.
-- Aggiungere una dipendenza con `npm install <pacchetto>` può rompere i componenti nativi di altri strumenti: rimedio nel `README.md`.
+- Ripetere `npm install` rompeva i test: risolto dichiarando `vite`, `esbuild` e `rolldown` nella root (dettagli nel `README.md`).
 - Il server di sviluppo usato per lo smoke test è stato fermato a fine sessione.
 - Nessun push: la repo non ha un remote.

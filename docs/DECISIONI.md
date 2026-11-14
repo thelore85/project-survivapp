@@ -91,6 +91,11 @@ Scelte prese durante lo sviluppo autonomo. Ogni voce: cosa, perché, come cambia
 - **Smoke test con `playwright-core` e il browser già installato** (Edge o Chrome).
   - Perché: evita di scaricare un browser dedicato.
 
+- **Una domanda breve dopo una risposta survival eredita l'argomento della domanda precedente**, sia per cercare sia per giudicare la pertinenza.
+  - Perché: "che materiali usare?" da sola non contiene l'argomento.
+  - Per cambiare: `previousQuestion` in `answerSurvival`.
+- **Tema scelto a mano** (sistema, chiaro, scuro) con le classi di NativeWind, salvato tra le impostazioni dell'utente.
+
 ## Decisioni aperte del PRD
 
 - **Riconoscimento botanico**: solo embedding visivi, nessun classificatore dedicato.

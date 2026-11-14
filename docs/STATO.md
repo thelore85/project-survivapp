@@ -9,7 +9,8 @@ Aggiornato a ogni tappa. Serve a riprendere dopo un'interruzione.
 - `tools/package-builder`: pacchetto base dai PDF e dal catalogo.
 - `tools/catalogue` e `data/catalogue`: 325 specie da fonti aperte.
 - `apps/mobile`: app Expo con chat, cronologia, libreria, impostazioni, scheda specie; piattaforma browser verificata, piattaforma Android scritta e non verificata.
-- Smoke test nel browser: 10 passi verdi.
+- Smoke test nel browser: 12 passi verdi.
+- Tema chiaro, scuro o di sistema; scheda specie che si chiude con un clic fuori; domande di seguito nel modulo survival.
 - Documentazione: `README.md`, `docs/DECISIONI.md`, `docs/RESOCONTO.md`, `docs/CHECKLIST-PIXEL.md`.
 
 ## In corso

@@ -46,13 +46,13 @@ La demo usa modelli finti: le risposte sono estratti dei manuali, i candidati bo
 npm run check
 ```
 
-Atteso: controllo dei tipi, lint e test senza errori (153 test del core, 4 del costruttore di pacchetti).
+Atteso: controllo dei tipi, lint e test senza errori (168 test del core, 4 del costruttore di pacchetti).
 
 ```
 npm run smoke
 ```
 
-Atteso: dieci righe `ok`. Va lanciato con `npm run web` attivo in un altro terminale; le schermate finiscono in `dist/smoke/`.
+Atteso: dodici righe `ok`. Va lanciato con `npm run web` attivo in un altro terminale; le schermate finiscono in `dist/smoke/`.
 
 ## Struttura
 
@@ -94,5 +94,6 @@ Non ancora provato. Passi e misure da raccogliere in `docs/CHECKLIST-PIXEL.md`.
 
 ## Problemi noti dell'ambiente
 
-- Dopo aver aggiunto una dipendenza con `npm install <pacchetto>` può comparire `Cannot find native binding` o `@esbuild/win32-x64 could not be found`: è un difetto di npm con le dipendenze opzionali. Rimedio: cancellare `node_modules` e `package-lock.json`, poi `npm install` da PowerShell.
+- `vite`, `esbuild` e `rolldown` sono dichiarati tra le dipendenze di sviluppo della root anche se nessuno li importa: senza, un secondo `npm install` toglie i loro componenti nativi (difetto di npm con le dipendenze opzionali) e i test non partono più con `Cannot find native binding`. Non rimuoverli.
+- `npm install` non va lanciato mentre `npm run web` è attivo: il server tiene aperti alcuni file e l'installazione fallisce con `EPERM`.
 - Il server web avviato con la variabile `CI=1` non ricarica il codice modificato.
