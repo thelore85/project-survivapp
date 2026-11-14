@@ -80,6 +80,8 @@ describe('orchestratore', () => {
     const reply = await orchestrator.handle({ conversationId: 'c1', text: 'How do I purify water?', lang: 'en' });
     expect(reply.domain).toBe('survival');
     expect(reply.parts).toHaveLength(1);
+    expect(reply.timings?.partsMs).toHaveLength(1);
+    expect(reply.timings?.totalMs).toBeGreaterThanOrEqual(0);
     expect(reply.parts[0]).toMatchObject({ kind: 'survival', status: 'answered' });
   });
 

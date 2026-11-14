@@ -146,4 +146,6 @@ export interface AssistantReply {
   /** Perché l'orchestratore ha scelto questo dominio: serve a diagnostica e test. */
   routingReason: string;
   parts: AnswerPart[];
+  /** Durata del turno e di ciascuna parte, in millisecondi: serve ai benchmark sul dispositivo. */
+  timings?: { totalMs: number; partsMs: number[] };
 }

@@ -14,6 +14,8 @@ export interface ModelStatus {
   available: boolean;
   loaded: boolean;
   error: string | null;
+  /** Durata dell'ultimo caricamento in millisecondi; null se il modello non è mai stato caricato. */
+  loadMs: number | null;
 }
 
 /** Ciò che i domini chiedono ai modelli: l'orchestratore dipende da questa porta, non dal gestore. */
@@ -31,6 +33,7 @@ export interface ModelProvider {
 export class ModelManager implements ModelProvider {
   private readonly lastUsed = new Map<ModelRole, number>();
   private readonly errors = new Map<ModelRole, string>();
+  private readonly loadTimes = new Map<ModelRole, number>();
   private clock = 0;
 
   constructor(
@@ -61,6 +64,7 @@ export class ModelManager implements ModelProvider {
     if (model.isLoaded()) return model;
 
     await this.makeRoom(role);
+    const startedAt = Date.now();
     try {
       await model.load();
     } catch {
@@ -73,6 +77,7 @@ export class ModelManager implements ModelProvider {
       }
     }
     this.errors.delete(role);
+    this.loadTimes.set(role, Date.now() - startedAt);
     return model;
   }
 
@@ -107,6 +112,7 @@ export class ModelManager implements ModelProvider {
         available: model !== undefined && !this.errors.has(role),
         loaded: model?.isLoaded() ?? false,
         error: this.errors.get(role) ?? null,
+        loadMs: this.loadTimes.get(role) ?? null,
       };
     });
   }

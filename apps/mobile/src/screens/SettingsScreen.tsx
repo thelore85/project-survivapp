@@ -88,10 +88,15 @@ export function SettingsScreen() {
             <Row
               key={status.role}
               label={`${tr(lang, `settings.model.${status.role}` as StringKey)} · ${status.id ?? '—'}`}
-              value={tr(
-                lang,
-                !status.available ? 'settings.model.unavailable' : status.loaded ? 'settings.model.loaded' : 'settings.model.idle',
-              )}
+              value={
+                tr(
+                  lang,
+                  !status.available ? 'settings.model.unavailable' : status.loaded ? 'settings.model.loaded' : 'settings.model.idle',
+                ) +
+                (status.loadMs !== null
+                  ? ` · ${tr(lang, 'settings.model.load_time', { seconds: (status.loadMs / 1000).toFixed(1) })}`
+                  : '')
+              }
             />
           ))}
         </Card>

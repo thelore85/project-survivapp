@@ -41,6 +41,8 @@ const STRINGS = {
   'chat.example.1': { it: 'Come purifico l’acqua di un torrente?', en: 'How do I purify stream water?', es: '¿Cómo purifico el agua de un arroyo?' },
   'chat.example.2': { it: 'Come costruire un riparo per la notte?', en: 'How do I build a shelter for the night?', es: '¿Cómo construyo un refugio para la noche?' },
   'chat.example.3': { it: 'Parlami di Amanita phalloides', en: 'Tell me about Amanita phalloides', es: 'Háblame de Amanita phalloides' },
+  'chat.elapsed': { it: 'Tempo di risposta: {seconds} s', en: 'Response time: {seconds} s', es: 'Tiempo de respuesta: {seconds} s' },
+  'settings.model.load_time': { it: 'caricato in {seconds} s', en: 'loaded in {seconds} s', es: 'cargado en {seconds} s' },
   'chat.photo': { it: 'Foto', en: 'Photo', es: 'Foto' },
   'chat.error': { it: 'Qualcosa non ha funzionato: {message}', en: 'Something went wrong: {message}', es: 'Algo ha fallado: {message}' },
   'history.empty': { it: 'Nessuna conversazione salvata.', en: 'No saved conversations.', es: 'No hay conversaciones guardadas.' },

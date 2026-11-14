@@ -137,6 +137,13 @@ export class Orchestrator {
     const nextState: SessionState = { ...state };
     delete nextState.pendingQuestion;
     const parts: AnswerPart[] = [];
+    const startedAt = Date.now();
+    const partsMs: number[] = [];
+    let partStartedAt = startedAt;
+    const mark = (): void => {
+      partsMs.push(Date.now() - partStartedAt);
+      partStartedAt = Date.now();
+    };
     const history = toHistory(previous);
 
     if (intent.domain === 'clarification_required') {
@@ -164,6 +171,7 @@ export class Orchestrator {
       if (intent.domain === 'botanical' || intent.domain === 'mixed') {
         botanical = await this.runBotanical(input, text, state, intent);
         parts.push(botanical);
+        mark();
         if (botanical.candidates.length > 0) {
           nextState.lastDomain = 'botanical';
           nextState.lastSpeciesIds = botanical.candidates.map((candidate) => candidate.id);
@@ -185,11 +193,17 @@ export class Orchestrator {
             { question: text, lang, history, context, onToken: input.onToken },
           ),
         );
+        mark();
         if (intent.domain === 'survival') nextState.lastDomain = 'survival';
       }
     }
 
-    const reply: AssistantReply = { domain: intent.needsImage ? 'clarification_required' : intent.domain, routingReason: intent.reason, parts };
+    const reply: AssistantReply = {
+      domain: intent.needsImage ? 'clarification_required' : intent.domain,
+      routingReason: intent.reason,
+      parts,
+      timings: { totalMs: Date.now() - startedAt, partsMs },
+    };
     await conversations.append(conversationId, { role: 'assistant', reply });
     await conversations.setState(conversationId, nextState);
     return reply;

@@ -25,6 +25,11 @@ function MessageView({ message, onOption }: { message: StoredMessage; onOption: 
       {message.reply.parts.map((part, index) => (
         <AnswerPartView key={index} part={part} lang={lang} onOption={onOption} />
       ))}
+      {message.reply.timings ? (
+        <Text variant="muted" className="text-xs">
+          {tr(lang, 'chat.elapsed', { seconds: (message.reply.timings.totalMs / 1000).toFixed(1) })}
+        </Text>
+      ) : null}
     </Card>
   );
 }
