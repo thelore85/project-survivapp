@@ -27,6 +27,55 @@ const EDIBILITY_CLAIMS = [
   /\bsegur[oa]s? para (?:comer|consumir)\b/g,
 ];
 
+/**
+ * Apprezzamenti culinari: non dicono "commestibile" ma lo sottintendono ("prelibatezza", "widely eaten").
+ * Valgono solo per i testi botanici: in un manuale di sopravvivenza "cooked" e "consumed" sono parole normali.
+ */
+const CULINARY_CLAIMS = [
+  /\bgastronomic\w*/g,
+  /\bculinari\w*/g,
+  /\bprelibat\w*/g,
+  /\bpregiat\w*/g,
+  /\bsquisit\w*/g,
+  /\bapprezzat\w*/g,
+  /\bsaporit\w*/g,
+  /\bricett\w*/g,
+  /\bin cucina\b/g,
+  /\b(?:si|viene|vengono) consuma\w*/g,
+  /\bconsumat[oaie]\b/g,
+  /\bdelicac\w*/g,
+  /\bculinary\b/g,
+  /\bcuisines?\b/g,
+  /\bgourmet\b/g,
+  /\besculent\b/g,
+  /\beaten\b/g,
+  /\bconsum(?:ed|ption)\b/g,
+  /\bcook(?:ed|ing)\b/g,
+  /\brecipes?\b/g,
+  /\btasty\b/g,
+  /\bprized\b/g,
+  /\bsought[- ]after\b/g,
+  /\bgastronom\w*/g,
+  /\bapreciad\w*/g,
+  /\bsabros\w*/g,
+  /\bdelicios\w*/g,
+  /\bexquisit\w*/g,
+  /\brecetas?\b/g,
+  /\bcocina\w*/g,
+  /\b(?:se|debe|deben|puede|pueden) consum\w*/g,
+  /\bapreciaci\w*/g,
+  /\b(?:as|for) food\b/g,
+  /\bfood source\b/g,
+  /\bcome (?:cibo|alimento)\b/g,
+  /\bcomo (?:comida|alimento)\b/g,
+  /\balimentari\w*/g,
+  /\bottim[oaie]\b/g,
+  /\bmiglior[ei]? fung\w*/g,
+  /\b(?:mild|pleasant|agreeable|nutty|sweet)\b[^.]{0,30}\b(?:taste|flavou?r)\b/g,
+  /\bsapore (?:dolce|gradevole|delicato|buono)\b/g,
+  /\bsabor (?:suave|agradable|dulce|bueno)\b/g,
+];
+
 /** Affermazioni di non pericolosità: qui la negazione è l'affermazione stessa. */
 const SAFETY_CLAIMS = [
   /\bnon (?:e|sono) (?:tossic|velenos|pericolos)\w*/g,
@@ -81,7 +130,8 @@ export function findViolations(text: string, scope: 'botanical' | 'survival'): V
   const normalized = normalizeText(text);
   const violations: Violation[] = [];
   const safetyClaim = SAFETY_CLAIMS.some((pattern) => normalized.search(pattern) >= 0);
-  if (hasUnnegatedMatch(normalized, EDIBILITY_CLAIMS) || safetyClaim) violations.push('edibility_clearance');
+  const culinary = scope === 'botanical' && hasUnnegatedMatch(normalized, CULINARY_CLAIMS);
+  if (hasUnnegatedMatch(normalized, EDIBILITY_CLAIMS) || safetyClaim || culinary) violations.push('edibility_clearance');
   if (scope === 'botanical') {
     if (hasUnnegatedMatch(normalized, CERTAINTY_CLAIMS)) violations.push('certainty_claim');
     if (PERCENTAGE.test(normalized)) violations.push('confidence_percentage');
@@ -90,13 +140,13 @@ export function findViolations(text: string, scope: 'botanical' | 'survival'): V
 }
 
 /**
- * Toglie da un testo di catalogo le frasi che affermano commestibilità o innocuità:
+ * Toglie da un testo di catalogo le frasi che affermano commestibilità, innocuità o pregio culinario:
  * anche una fonte enciclopedica, accanto a un candidato da foto, suonerebbe come un via libera.
  */
 export function redactEdibilityClaims(text: string): string {
   return text
     .split(/(?<=[.!?])\s+/)
-    .filter((sentence) => !findViolations(sentence, 'survival').includes('edibility_clearance'))
+    .filter((sentence) => !findViolations(sentence, 'botanical').includes('edibility_clearance'))
     .join(' ')
     .trim();
 }

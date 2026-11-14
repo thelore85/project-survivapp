@@ -45,6 +45,35 @@ describe('via libera al consumo', () => {
   });
 });
 
+describe('apprezzamenti culinari nei testi botanici', () => {
+  it.each([
+    'esculenta is sometimes parboiled for consumption, being a popular delicacy in Europe.',
+    'Agaricus campestris is a widely eaten gilled mushroom.',
+    'È un fungo che merita grande attenzione per le qualità gastronomiche.',
+    'La sua prelibatezza indusse gli antichi Romani a definirlo "cibo degli dèi".',
+    'De interés en gastronomía, debe consumirse siempre cocinada, nunca cruda.',
+    'En Francia son muy apreciadas, con numerosas recetas de cocina regional.',
+    'Although potentially fatal if eaten raw, it is sold in markets.',
+    'Some cultures use it as food after preparation.',
+    'I Romani lo ritenevano ottimo.',
+    'Presenta olor y sabor agradable.',
+    'The flesh has a mild smell and flavor.',
+  ])('rileva: %s', (text) => {
+    expect(findViolations(text, 'botanical')).toContain('edibility_clearance');
+    expect(redactEdibilityClaims(`Cresce nei boschi. ${text}`)).toBe('Cresce nei boschi.');
+  });
+
+  it('non tocca i manuali di sopravvivenza, dove cucinare è un argomento normale', () => {
+    expect(findViolations('The fish must be cooked before it is consumed [1].', 'survival')).toEqual([]);
+  });
+
+  it('lascia passare le frasi che negano o avvertono', () => {
+    expect(findViolations('Su sabor es desagradable, por lo que no se le considera un hongo comestible.', 'botanical')).toEqual([]);
+    expect(findViolations('It is an inedible mushroom due to its toxicity.', 'botanical')).toEqual([]);
+    expect(findViolations('Fungo mortale: provoca ogni anno numerosi avvelenamenti.', 'botanical')).toEqual([]);
+  });
+});
+
 describe('certezza e percentuali nelle risposte botaniche', () => {
   it.each([
     'È sicuramente Amanita muscaria.',

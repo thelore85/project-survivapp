@@ -118,7 +118,7 @@ export class Orchestrator {
     const { conversations } = this.deps;
     const { conversationId, lang } = input;
     if (!(await conversations.exists(conversationId))) {
-      await conversations.create(conversationId, input.text.trim().slice(0, 48) || '📷');
+      await conversations.create(conversationId, input.text.trim().slice(0, 48) || t(lang, 'conversation.photo_title'));
     }
     const previous = await conversations.messages(conversationId);
     const state = await conversations.getState(conversationId);

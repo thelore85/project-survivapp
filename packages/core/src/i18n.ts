@@ -156,6 +156,7 @@ const MESSAGES = {
     en: 'place and time: region, altitude, type of ground, month',
     es: 'lugar y época: región, altitud, tipo de terreno, mes',
   },
+  'conversation.photo_title': { it: 'Foto', en: 'Photo', es: 'Foto' },
   'clarify.question': {
     it: 'Non ho capito a quale ambito ti riferisci. Vuoi informazioni su una pianta o un fungo, oppure una ricerca nei manuali di sopravvivenza?',
     en: 'I am not sure which area you mean. Do you want information about a plant or mushroom, or a search in the survival manuals?',
