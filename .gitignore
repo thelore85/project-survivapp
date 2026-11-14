@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.expo/
+*.log
+.env
+.env.*
+
+# PDF pesanti: si riscaricano dalle fonti in knowledge_base/SOURCES.md
+knowledge_base/**/*.pdf
+
+# Dati ricostruibili con gli script
+data/catalogue/.cache/
+data/catalogue/images/
+apps/mobile/public/demo-package/
+apps/mobile/public/vendor/
+
+# Android/iOS generati
+apps/mobile/android/
+apps/mobile/ios/
